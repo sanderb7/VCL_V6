@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ColorizeGrid" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAiAAABAAiAAQhQAAABgBAAqAAAAAAEIAAAAggIAAAQ=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\ExtraScripts\ColorizeGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EffectorVal" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIAAAAAAAAAACAAAAAAAAAAEAAAACAAAA=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\ExtraScripts\EffectorVal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BETABlendShapeDeformer" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OBYAIAAEAGAAAEACAgAEQASAACCADQAABAAASIIAACA=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Mesh Deformers\BETABlendShapeDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurveShapeDeformer" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQKAAAAAAiAAQASAAgAAAARAAAAACAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Mesh Deformers\CurveShapeDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlareDeformer" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQOgAAAAAiABQAaAAggAAARAAAAICAAQAEAAAgIBABQ=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Mesh Deformers\FlareDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageDeformer" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQoAAABABiABAkKAAggwAAQwIACAKAAYAEAAAAAAAhQ=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Mesh Deformers\ImageDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RippleDeformer" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARoAAAAEIiBBAAaAAgAIAAaAAIAAKEASAEBgAiACFBQ=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Mesh Deformers\RippleDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleBlendShape" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OBYAIACEACAAAEACAgAIQASAACCADQAAAAAAYIIAACA=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Mesh Deformers\SimpleBlendShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SineDeformer" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQOgCAAAAiABQAaAAgCIAAQIBIAAAEASAEAgAgILABQ=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Mesh Deformers\SineDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TwistDeformer" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQOgAIAAAiABQBaAAkCAAAQIAIAAAAAQBUAAAgIDABQ=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Mesh Deformers\TwistDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectRotateEffectorDeformer" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAWBAEAicBABLAAQAAAQKCAAAAIAAAAEIAAAAAABQ=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Objects Deformer\ObjectRotateEffectorDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectScaleEffectorDeformer" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABABAEAiABABLAAQIAAAKCQAAAIAAAAEIAAAAAABQ=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Objects Deformer\ObjectScaleEffectorDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectsImageDeformer" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAiAABBABiAAQhQAAQBgAAIyAAAAQAMIAAAAAgJAAAQ=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Objects Deformer\ObjectsImageDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectsRipple" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAABAEIiAAAAQAAxAIAAKCALAAAEACAAIgAABCFAI=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Objects Deformer\ObjectsRipple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectsSine" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCACBAEAiAAQAaAARCIAAICAIAAAEACAAIgAgJCAAY=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Objects Deformer\ObjectsSine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectTransformEffectorDeformer" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAABAEAiABABLAAQAAAAKC0AAAIAAAAEIAAAAAABQ=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Objects Deformer\ObjectTransformEffectorDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkinnedMeshAnimCurveDeformer" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQKAABAAAiAAQASAAgAAAARAAAAAAAAAAAAAAgAQAAA=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\SkinnedMeshAnimCurveDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkinnedMeshFlareDeformer" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQKAABAAAiAAQAaAAggAAARAAAAICAAAAAAAAgIQAAA=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\SkinnedMeshFlareDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="skinnedMeshRipple" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARoAABAEIiBBAAaAAgAIAAaAAIAAKEASAEBgAiASFBQ=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\skinnedMeshRipple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkinnedMeshSine" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQOgCBAAAiABQAaAAgCIAAQIBIAAAEASAEAgAgIbABQ=</HashCode>
+      <FileName>Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\SkinnedMeshSine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraController" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYABAAAACAQQACAIAAAIAAAAEAAAAAAAAAAgAQAAAA=</HashCode>
+      <FileName>Assets\MyScripts\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeProperties" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACEAAACIAAABAAAAAJAAAIAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\CompositeProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataController" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\DataController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignMenu" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAAIAILAIAAAJEAAAAAAAAAAAAAAoQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\DesignMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExperimentCameraController" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgBAAAACAQQAAAIAAAIAAAAEAAAAAAYAAAgAQAAAA=</HashCode>
+      <FileName>Assets\MyScripts\ExperimentCameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LabController" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAACARsQAIEBEAQAAAEAAAAAAAAIAkgAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\LabController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LabSceneManager" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAgAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\LabSceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetLaminateProperties" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAEAAAIAAAAAAAAAAAAAAAAAAEgAAAgAAI=</HashCode>
+      <FileName>Assets\MyScripts\LaminateScripts\GetLaminateProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetLayerProperties" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAAAAAIAAAAAAAAEEAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\LaminateScripts\GetLayerProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lamina" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\LaminateScripts\Lamina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaminateLayerMaterials" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAIAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\LaminateScripts\LaminateLayerMaterials.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaminateMechanics" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAQSCAAgAAAAAAAAAECAAAABAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\MyScripts\LaminateScripts\LaminateMechanics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaminateProperties" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAQEAAAAQAAAAAAAAAAEAAAABAAAA=</HashCode>
+      <FileName>Assets\MyScripts\LaminateScripts\LaminateProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaminateVisuals" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQAIgAAAQCAAAAAAAAACAAAAAAAABAA=</HashCode>
+      <FileName>Assets\MyScripts\LaminateScripts\LaminateVisuals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaterialProperties" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAKAAAAAAAAABAAAAAAAAAgAEAAAQAUAACAAABAAAA=</HashCode>
+      <FileName>Assets\MyScripts\LaminateScripts\MaterialProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicalProperties" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\LaminateScripts\PhysicalProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrefabMaterialProperties" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAKAAAAAAAAABAAAAAAAAAgAEAAAQAUAACAAABAAAA=</HashCode>
+      <FileName>Assets\MyScripts\LaminateScripts\PrefabMaterialProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DisplayMaterialInfomation" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAg=</HashCode>
+      <FileName>Assets\MyScripts\MaterialSelection\DisplayMaterialInfomation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DragHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAABAAAABAEAAAAAAAAiAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\MaterialSelection\DragHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MousePositionManager" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\MyScripts\MaterialSelection\MousePositionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slot" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAMAQAAAAAEAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\MaterialSelection\Slot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SlotController" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\MaterialSelection\SlotController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshDeformer" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAaAAAAAACAAQQAAAgAAAARAAAAAAAAABAAAAgIAAAA=</HashCode>
+      <FileName>Assets\MyScripts\MeshDeformation\MeshDeformer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessScript" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIACABAAAEAAgAAAAAAAAAEAAAAAEAAABAAAA=</HashCode>
+      <FileName>Assets\MyScripts\ProcessScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetSize" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAEAIBIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\SetSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TensileTest" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MyScripts\TensileTest\TensileTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotateAxis" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\RotateAxis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JustRotate" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Sci-Fi UI Pack\Resources\Scripts\JustRotate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SliderValuePass" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Sci-Fi UI Pack\Resources\Scripts\SliderValuePass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatController" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAEAAAAAAAAAAAAAAAAAICEAAAAAACAA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnvMapAnimator" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAAAAAAAAAgAAAAAAQAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.Benchmark01" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAAAIAACAAAAAAAAQAAAAIAAQAAAAAgAABAAAAAAA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.Benchmark01_UGUI" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAAAAAACAAAAAAAAQAAAAKAAQAAAAAgAABAAAAAAA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.Benchmark02" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAEAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.Benchmark03" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.Benchmark04" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAIACAAAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.CameraController" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAEAAEADAEBEAgAIQAIEABAAAFgYQQACAAAAAAIEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.ObjectSpin" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAEAIAAAAAAAAAAAAQAAAEABAIAgAAAAAAQBAAEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.ShaderPropAnimator" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAAAAAAAAAgAEAAAAAAAAAAAAAAAQAgAEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.SimpleScript" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAABAAAAAAAEAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.SkewTextExample" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAACAAAAAAAAAAAAAABAEAAAAAIAAAAAACAEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.TeleType" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAAAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.TextConsoleSimulator" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAAAAAAAAAAAAABAAAAAAIAMAAAAACCEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.TextMeshProFloatingText" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACACAJACAAAAAAAAAAAAAIAAQAQAAAAAAAACAACEI=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.TextMeshSpawner" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAEAAAAAAABAAAAAAAAAAAAAAAACEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.TMP_ExampleScript_01" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAIBAAAAAAAAAAACAAAAIAAAAAAAEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.TMP_FrameRateCounter" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoQAAAAAACAAAIgAAAAgAIAAAgQAAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.TMP_TextEventCheck" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEJAAAAAAAACAA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.TMP_TextInfoDebugTool" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAIYACAAAAAAgAAAAAAAoABCAAEAAACAgQACgAA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.TMP_TextSelector_A" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAIAAAAAQoAAAAAAAAAQAAAWA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TMPro.Examples.TMP_TextSelector_B" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAABBGgAAAIAQAQAAIAAIgAQoAABIAEAAAQAACEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TMPro.Examples.TMP_UiFrameRateCounter" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoQAAAAAACAAAAgAAAAgAIAAAgQAAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.TMPro_InstructionOverlay" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAAAAAAIgAAAAgAAAAAAQAAAAACAAAAAAAAEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.VertexColorCycler" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.VertexJitter" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAAAAAAAFAAAAAAAAAAgIAMAAAAACCEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.VertexShakeA" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAACAAAFAACAAAAAAAgIAMAAAAACCEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.VertexShakeB" Collapsed="true">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAAAAAAAFAAAAAAAAAAgIAMAAAAACCEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.VertexZoom" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAAAAAAAFAAAAAAAAAAgIAMAAAAACCEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Examples.WarpTextExample" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAACAAAAAAAAAFAAAABAAAAAAAIAAAAAACAEA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_DigitValidator" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_PhoneNumberValidator" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_TextEventHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAEEAAAAAMABAAEAIEAIAUApAAAAAAAAAYACBWE=</HashCode>
+      <FileName>Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
