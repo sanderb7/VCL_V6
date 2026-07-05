@@ -40,7 +40,10 @@ public class MenuDescriptors : MonoBehaviour
     {
         textDrawDisplay.text = "\\begin{flushleft}Design a multilayer, orthotropic material.\n\n\\end{flushleft}";
     }
-
+    public void CharpyTestInformation()
+    {
+        textDrawDisplay.text = "\\begin{flushleft}Measure toughness of a material using a Charpy impact test.\n\n\\end{flushleft}";
+    }
 
     public void ClearMessageText()
     {

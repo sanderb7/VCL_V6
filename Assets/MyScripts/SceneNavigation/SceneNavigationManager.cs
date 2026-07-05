@@ -18,7 +18,7 @@ public class SceneNavigationManager : MonoBehaviour
 
     public void MainMenu()
     {
-        SceneManager.LoadScene("MainMenuScene");
+        SceneManager.LoadScene("MainMenu");
     }
     public void LoginNameCheck()
     {
@@ -34,7 +34,7 @@ public class SceneNavigationManager : MonoBehaviour
         else
         {
             dataController.SetUpFileOutputDirectories();
-            SampleDesignMenu();
+            MainMenu();
         }
 
     }
@@ -43,11 +43,26 @@ public class SceneNavigationManager : MonoBehaviour
     {
         dataController.TakeScreenShot();
     }
-    public void SampleDesignMenu()
+    
+    public void BuildTestSample()
     {
-        SceneManager.LoadScene("SampleDesignMenu");
-    }
 
+        switch (dataController.testType)
+        {
+            case TestType.isotropicMaterialTensileTest:
+                BuildIsotropicMaterial();
+                break;
+
+            case TestType.orthotropicMaterialTensileTest:
+                BuildOrthotropicMaterial();
+                break;
+
+            case TestType.multilayerMaterialTensileTest:
+            case TestType.threePointBendTensileTest:
+                BuildLaminateScene();
+                break;
+        }
+    }
     public void BuildIsotropicMaterial()
     {
 
@@ -78,15 +93,9 @@ public class SceneNavigationManager : MonoBehaviour
     { 
         SceneManager.LoadScene("TestLab");
     }
-    public void LoadTestScene(int testType)
-    //   public void LoadTestScene(TestType testType)
+    public void LoadTestScene(int testType)    
     {
-        //for (int i = 0; i < dataController.testLaminate.numberOfLayers; i++)
-        //{
-        //    laminateMechanics.NonPrincipalProperties(i, dataController);
-        //}
         dataController.testType = (TestType)testType;
-        //        dataController.testType = testType;
         SceneManager.LoadScene("TestLab");
     }
     public void ExitApplication()

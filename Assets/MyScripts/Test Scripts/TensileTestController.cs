@@ -71,7 +71,7 @@ public class TensileTestController : MonoBehaviour
 
         //find the game objects that have the laminate data (DataController) and the visualization method
         dataController = FindObjectOfType<DataController>();
-
+        if (dataController.testType == TestType.multilayerMaterialTensileTest || dataController.testType == TestType.charpyTest) return;
 
         OpenOutputFile(dataController.testType);
         SetModelParameters();  //

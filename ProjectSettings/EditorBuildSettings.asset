@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Navigation/StartUpScene.unity
     guid: ef4613d666be8b844a27ed67f21bd852
   - enabled: 1
-    path: Assets/Scenes/Navigation/SampleDesignMenu.unity
+    path: Assets/Scenes/Navigation/MainMenu.unity
     guid: 708c51cf508e0954f8f140a62285fab6
   - enabled: 1
     path: Assets/Scenes/SampleDesignScenes/BuildIsotropicTestSample.unity

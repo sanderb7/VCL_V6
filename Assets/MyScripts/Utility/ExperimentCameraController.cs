@@ -8,73 +8,93 @@ using UnityEngine;
 
 public class ExperimentCameraController : MonoBehaviour
 {
-    public Transform tensileTestTarget;
-    public Transform threePointBendTestTarget;
-    public Transform camTransform;
-    public float distance = .5f;
+    public Transform cameraStart;
+    [Header("Camera Locations")]
     public Transform tensileTestPosition;
+    public Transform tensileTestTarget;
+
+    public Transform threePointBendTestTarget;
     public Transform threePointBendTestPosition;
+
+    public Transform charpyTestTarget;
+    public Transform charpyTestPosition;
+
+    [Header("Camera Controls")]
+    public float lookSpeed = 120f;
+    public float zoomSpeed = 3f;
+
+    public float minPitch = -75f;
+    public float maxPitch = 75f;
 
     private DataController dataController;
 
-    private Camera cam;
-    private float currentX = 0.0f;
-    private float currentY = 0.0f;
-    private float currentZ = 0.0f;
-    private float sensivityX = .010f;
-    private float sensivityY = .010f;
+    private Transform initialTarget;
 
-    Vector3 distanceToTarget;
+    private float yaw;
+    private float pitch;
 
-    private Transform target;
-
+//    private Camera cam;
+   
     private void Start()
     {
         dataController = FindObjectOfType<DataController>();
 
-        cam = Camera.main;
+        Transform startPosition = tensileTestPosition;
+        initialTarget = tensileTestTarget;
 
-        //set the transforms base on the selected test type
+        //set the transforms base on the selected test type - need to work on this
+        //set default to tensile test location and modify if other
+        //this.cameraStart = tensileTestPosition;
+        //target = tensileTestTarget;
+
         if (dataController.testType == TestType.threePointBendTensileTest)
         {
-            camTransform = threePointBendTestPosition;
-            target = threePointBendTestTarget;
+            startPosition = threePointBendTestPosition;
+            initialTarget = threePointBendTestTarget;
         }
-        else
+        else if (dataController.testType == TestType.charpyTest)
         {
-            camTransform = tensileTestPosition;
-            target = tensileTestTarget;
+            startPosition = charpyTestPosition;
+            initialTarget = charpyTestTarget;
         }
 
-        this.transform.position = camTransform.position;
-        this.transform.rotation = camTransform.rotation;
+        transform.position = startPosition.position;
+        // Aim camera once at the initial target
+        transform.LookAt(initialTarget);
 
+        yaw = transform.eulerAngles.y;
+        pitch = transform.eulerAngles.x;
 
-        camTransform = transform;
-        distanceToTarget = cam.transform.position - target.transform.position;
-        currentX = cam.transform.position.x;
-        currentY = cam.transform.position.y;
-        currentZ = cam.transform.position.z;
+        if (pitch > 180f)
+            pitch -= 360f;
 
     }
-
+    
     private void Update()
     {
-        //user can pan a bit using holding the right mouse button and dragging around the scene
+        //--------------------------------------------------
+        // Right mouse drag: look around
+        //--------------------------------------------------
+
         if (Input.GetMouseButton(1))
         {
-            currentX -= Input.GetAxis("Mouse X")*sensivityX;
-            currentY -= Input.GetAxis("Mouse Y")*sensivityY;
+            yaw += Input.GetAxis("Mouse X") * lookSpeed * Time.deltaTime;
+            pitch -= Input.GetAxis("Mouse Y") * lookSpeed * Time.deltaTime;
+
+            pitch = Mathf.Clamp(pitch, minPitch, maxPitch);
+
+            transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
         }
 
-        //user can use the scrollwheel to zoom in and out of the test setup
-        currentZ += Input.GetAxis("Mouse ScrollWheel");
+        //--------------------------------------------------
+        // Scroll wheel: move in current viewing direction
+        //--------------------------------------------------
 
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+
+        if (Mathf.Abs(scroll) > 0.001f)
+        {
+            transform.position += transform.forward * scroll * zoomSpeed;
+        }
     }
-
-    private void LateUpdate()
-    {
-        camTransform.position = new Vector3 (currentX, currentY, currentZ);
-    }
-
 }

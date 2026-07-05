@@ -13,7 +13,8 @@ public enum TestType
     isotropicMaterialTensileTest   = 10,
     orthotropicMaterialTensileTest = 11,
     multilayerMaterialTensileTest  = 12,
-    threePointBendTensileTest      = 20
+    threePointBendTensileTest      = 20,
+    charpyTest                     = 30
 }
 public class DataController : MonoBehaviour
 {
@@ -25,7 +26,10 @@ public class DataController : MonoBehaviour
 
     public TestType testType;
 
-    private int screenshotCount = 0; 
+    private int screenshotCount = 0;
+
+    [HideInInspector]
+    public string studentUserName;
 
     void Start()
     {
@@ -34,7 +38,18 @@ public class DataController : MonoBehaviour
         studentName[0] = null;
         studentName[1] = null;
 
-//        may put an openning scene here but for now lets go with this
+        if (studentUserName != null)
+        {
+            string storedUserName = PlayerPrefs.GetString(studentUserName);
+            string[] parsedName = storedUserName.Split('.');
+            if (parsedName.Length == 2)
+            {
+                studentName[0] = parsedName[0];
+                studentName[1] = parsedName[1];
+            }
+        }
+
+        //        may put an openning scene here but for now lets go with this
         SceneManager.LoadScene("StartUpScene");
     }
 
@@ -63,5 +78,10 @@ public class DataController : MonoBehaviour
         } while (System.IO.File.Exists(filePath));
 
         ScreenCapture.CaptureScreenshot(filePath);
+    }
+    public void StoreLoginName()
+    {
+        string userName = studentName[0] + "." + studentName[1];
+        PlayerPrefs.SetString(studentUserName, userName);
     }
 }
