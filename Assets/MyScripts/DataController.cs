@@ -49,7 +49,7 @@ public class DataController : MonoBehaviour
             }
         }
 
-        //        may put an openning scene here but for now lets go with this
+        // may put an opening scene here but for now lets go with this
         SceneManager.LoadScene("StartUpScene");
     }
 
@@ -58,12 +58,27 @@ public class DataController : MonoBehaviour
     {
         string studentNamePath = studentName[0] + studentName[1];
 
-        Directory.CreateDirectory(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "\\" + studentNamePath);
-        Directory.CreateDirectory(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "\\" + studentNamePath + "\\Pictures");
-        Directory.CreateDirectory(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "\\" + studentNamePath + "\\TestData");
+        if (SystemInfo.operatingSystemFamily == OperatingSystemFamily.MacOSX)
+        {
+            //for a mac
+            Directory.CreateDirectory(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "/" + studentNamePath);
+            Directory.CreateDirectory(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "/" + studentNamePath + "/Pictures");
+            Directory.CreateDirectory(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "/" + studentNamePath + "/TestData");
 
-        picturesOutputPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop).ToString() + "\\" + studentNamePath + "\\Pictures";
-        testDataOutputPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop).ToString() + "\\" + studentNamePath + "\\TestData";
+            picturesOutputPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop).ToString() + "/" + studentNamePath + "/Pictures";
+            testDataOutputPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop).ToString() + "/" + studentNamePath + "/TestData";
+        }
+
+        if (SystemInfo.operatingSystemFamily == OperatingSystemFamily.Windows)
+        {
+            //for windows
+            Directory.CreateDirectory(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "\\" + studentNamePath);
+            Directory.CreateDirectory(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "\\" + studentNamePath + "\\Pictures");
+            Directory.CreateDirectory(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "\\" + studentNamePath + "\\TestData");
+
+            picturesOutputPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop).ToString() + "\\" + studentNamePath + "\\Pictures";
+            testDataOutputPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop).ToString() + "\\" + studentNamePath + "\\TestData";
+        }
     }
 
     public void TakeScreenShot()

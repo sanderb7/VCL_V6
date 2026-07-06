@@ -3,27 +3,12 @@
   "WorkspaceRootPath": "C:\\GITHUBProjects\\VCL_V6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|c:\\githubprojects\\vcl_v6\\assets\\myscripts\\utility\\experimentcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\utility\\experimentcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|c:\\githubprojects\\vcl_v6\\assets\\myscripts\\charpytests\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\charpytests\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\testscenecanvasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\testscenecanvasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|c:\\githubprojects\\vcl_v6\\assets\\myscripts\\scenenavigation\\loginscenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\scenenavigation\\loginscenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\scenenavigation\\scenenavigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\scenenavigation\\scenenavigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\FlightTraining\\ERUPT_ROV_V2\\Assets\\Scripts\\Gamemanagement\\LoginSceneController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,80 +27,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExperimentCameraController.cs",
-              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\Utility\\ExperimentCameraController.cs",
-              "RelativeDocumentMoniker": "Assets\\MyScripts\\Utility\\ExperimentCameraController.cs",
-              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\Utility\\ExperimentCameraController.cs",
-              "RelativeToolTip": "Assets\\MyScripts\\Utility\\ExperimentCameraController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Title": "LoginSceneController.cs",
+              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\SceneNavigation\\LoginSceneController.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScripts\\SceneNavigation\\LoginSceneController.cs",
+              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\SceneNavigation\\LoginSceneController.cs",
+              "RelativeToolTip": "Assets\\MyScripts\\SceneNavigation\\LoginSceneController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T13:02:53.736Z",
+              "WhenOpened": "2026-07-06T17:51:01.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "442e8543-e851-4f4f-b5aa-b0d2f4fab874",
+        "Display": 0,
+        "X": 154,
+        "Y": 116,
+        "Width": 1568,
+        "Height": 923,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DataManager.cs",
-              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\CharpyTests\\DataManager.cs",
-              "RelativeDocumentMoniker": "Assets\\MyScripts\\CharpyTests\\DataManager.cs",
-              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\CharpyTests\\DataManager.cs",
-              "RelativeToolTip": "Assets\\MyScripts\\CharpyTests\\DataManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T12:35:29.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TestSceneCanvasManager.cs",
-              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\TestSceneCanvasManager.cs",
-              "RelativeDocumentMoniker": "Assets\\TestSceneCanvasManager.cs",
-              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\TestSceneCanvasManager.cs",
-              "RelativeToolTip": "Assets\\TestSceneCanvasManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T19:42:30.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "SceneNavigationManager.cs",
               "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\SceneNavigation\\SceneNavigationManager.cs",
               "RelativeDocumentMoniker": "Assets\\MyScripts\\SceneNavigation\\SceneNavigationManager.cs",
               "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\SceneNavigation\\SceneNavigationManager.cs",
               "RelativeToolTip": "Assets\\MyScripts\\SceneNavigation\\SceneNavigationManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T19:15:00.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginSceneController.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\FlightTraining\\ERUPT_ROV_V2\\Assets\\Scripts\\Gamemanagement\\LoginSceneController.cs",
-              "RelativeDocumentMoniker": "..\\..\\UnityProjects\\FlightTraining\\ERUPT_ROV_V2\\Assets\\Scripts\\Gamemanagement\\LoginSceneController.cs",
-              "ToolTip": "C:\\UnityProjects\\FlightTraining\\ERUPT_ROV_V2\\Assets\\Scripts\\Gamemanagement\\LoginSceneController.cs",
-              "RelativeToolTip": "..\\..\\UnityProjects\\FlightTraining\\ERUPT_ROV_V2\\Assets\\Scripts\\Gamemanagement\\LoginSceneController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T19:11:50.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataController.cs",
-              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\DataController.cs",
-              "RelativeDocumentMoniker": "Assets\\MyScripts\\DataController.cs",
-              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\DataController.cs",
-              "RelativeToolTip": "Assets\\MyScripts\\DataController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T19:08:17.025Z"
+              "WhenOpened": "2026-07-04T19:15:00.725Z",
+              "EditorCaption": ""
             }
           ]
         }
