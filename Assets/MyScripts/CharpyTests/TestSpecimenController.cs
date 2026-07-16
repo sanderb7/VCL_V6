@@ -22,6 +22,8 @@ public class TestSpecimenController : MonoBehaviour
 
             testSpecimenRenderer[i].enabled = false;
             rb[i].useGravity = false;
+
+            rb[i].isKinematic = true;
         }
 
     }
@@ -38,6 +40,7 @@ public class TestSpecimenController : MonoBehaviour
         
         for (int i = 0; i < testSpecimen.Length; i++)
         {
+            rb[i].isKinematic = false;
             rb[i].AddRelativeForce(new Vector3(1.0f, 0, 0)/impactTesterController.AbsorbedEnergyJ, ForceMode.Impulse);
             rb[i].useGravity = true;
             testSpecimenRenderer[i].enabled = true;
@@ -48,6 +51,8 @@ public class TestSpecimenController : MonoBehaviour
     {
         for (int i = 0; i < testSpecimen.Length; i++)
         {
+            rb[i].isKinematic = true;
+
             testSpecimenRenderer[i].enabled = false;
             rb[i].isKinematic = true;
             testSpecimen[i].transform.localPosition = testSpecimenOriginalPosition[i];

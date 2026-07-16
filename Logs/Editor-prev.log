@@ -1,0 +1,953 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.3f1 (c2eb47b3a2a9) revision 12774215'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-SANDERB7" at "2026-07-16T18:23:06.6106083Z"
+OS: 'Windows 11  (10.0.26200) Enterprise' Language: 'en' Physical Memory: 65206 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-07-16T18:23:06Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.3f1\Editor\Unity.exe
+-projectpath
+C:\GITHUBProjects\VCL_V6
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-SANDERB7
+-hubSessionId
+a92264b4-3b3d-41f4-aa1a-abc009c546b6
+-accessToken
+sh_H16rAK0fNJEZih3odNj45JJTJ1bHXagTNvXT3x78002f
+Successfully changed project path to: C:\GITHUBProjects\VCL_V6
+C:/GITHUBProjects/VCL_V6
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [11536]  Target information:
+
+Player connection [11536]  * "[IP] 192.168.1.158 [Port] 55504 [Flags] 2 [Guid] 2121849082 [EditorId] 2121849082 [Version] 1048832 [Id] WindowsEditor(7,WW-4J55SQ3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11536] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11536] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-46948" after 0.4 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-SANDERB7"
+[Licensing::IpcConnector] LicenseClient-SANDERB7 channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-SANDERB7-6000.5.3 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 34028)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-SANDERB7-6000.5.3, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-SANDERB7-6000.5.3" at "2026-07-16T18:23:10.3257023Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 34028, path: "C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              fbce7e1655774d6fbc589da9524d54ac
+  Correlation Id:          0024d3a186f2e056d3920796a77903b3
+  External correlation Id: 2877821081037727701
+  Machine Id:              xfS15U/JigKcG5rBATI6XDPNZAE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-SANDERB7-6000.5.3" (connect: 0.57s, validation: 0.63s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-SANDERB7-6000.5.3-notifications" at "2026-07-16T18:23:10.963Z"
+[Licensing::Module] Connected to LicensingClient (PId: 34028, launch time: 0.21, total connection time: 1.20s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token sh_H16rAK0...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2883364-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 4.42s
+[Licensing::Module] Licensing is initialized (took 1.80s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 64 unused hashed content files
+Initialize engine version: 6000.5.3f1 (c2eb47b3a2a9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GITHUBProjects/VCL_V6/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti Laptop GPU (ID=0x2460)
+    Vendor:   NVIDIA
+    VRAM:     16173 MB
+    Driver:   32.0.15.9608
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001890 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.369 seconds
+Domain Reload Profiling: 857ms
+	BeginReloadAssembly (129ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (121ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (187ms)
+	FinalizeReload (371ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 54 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ads@4.19.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.ads@dbd68e7e78e9)
+    com.unity.ai.navigation@2.0.14 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.analytics@3.8.2 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.analytics@c9d14a6bdec6)
+    com.unity.collab-proxy@2.12.4 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e)
+    com.unity.ide.rider@3.0.40 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.ide.rider@e4950c6d131b)
+    com.unity.ide.visualstudio@2.0.27 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.ide.visualstudio@dc1ddd4f09b6)
+    com.unity.ide.vscode@1.2.5 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd)
+    com.unity.purchasing@5.4.1 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.purchasing@db17cc2e78b3)
+    com.unity.timeline@1.8.12 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.services.core@1.18.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.services.core@3464cb68d709)
+    com.unity.services.analytics@6.3.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.services.analytics@cde4e6cf92f9)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.2d.sprite@053a968eab56)
+    com.unity.2d.tilemap@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.2d.tilemap@592c6ccaefe1)
+    com.unity.multiplayer.center@1.0.1 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.test-framework@1.7.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.ugui@377fd60ad87b)
+    com.unity.modules.accessibility@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\GITHUBProjects\VCL_V6\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+[Package Manager] com.unity.ide.vscode is deprecated: Visual Studio Code package is not supported anymore. You can continue to use it, but we won't provide any update anymore.
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.11 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\GITHUBProjects\VCL_V6
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 32.8985ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/GITHUBProjects/VCL_V6
+ExitCode: 0 Duration: 0s440ms
+*** Tundra build success (0.10 seconds), 0 items updated, 747 evaluated
+AssetDatabase: script compilation time: 1.542546s
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 16.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 1393ms
+	BeginReloadAssembly (319ms)
+		DisableScriptedObjects (34ms)
+		CreateAndSetChildDomain (137ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (330ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (99ms)
+			BuildScriptInfoCaches (30ms)
+	FinalizeReload (549ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Starting new worker id: 0 with log in C:/GITHUBProjects/VCL_V6/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=1852224d298e53142a2a3b721f249921): Total: 3.930 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1190 ms
+		Asset DB Callback time: managed=147 ms, native=109 ms
+		Scripting: domain reloads=1, domain reload time=902 ms, compile time=1545 ms, other=35 ms
+		Project Asset Count: scripts=1304, non-scripts=2917
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 111.845ms
+	ApplyChangesToAssetFolders: 0.684ms
+	Scan: 162.993ms
+	Collect global state as custom dependencies: 0.605ms
+	CategorizeScriptCompilationAssets: 44.593ms
+	ProcessAssetsWithTransientArtifactChanges: 41.531ms
+	CategorizeAssets: 29.485ms
+	CompileScripts: 1545.323ms
+	ImportOutOfDateAssets: 748.044ms (594.696ms without children)
+		UnloadImportedAssets: 0.095ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.542ms
+		ImportSchedulerStart: 152.707ms
+	PostProcessAllAssets: 147.774ms
+		MonoPostProcessAllAssets: 147.707ms
+			SyncVS.PostprocessSyncProject 130.624ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.955ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.846ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.691ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.234ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.195ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.148ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.128ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.074ms
+	UnloadStreamsBegin: 1.715ms
+	PersistCurrentRevisions: 0.147ms
+	GenerateScriptTypeHashes: 2.193ms
+	GenerateScriptTypeSerializationHashes: 4.372ms
+	Untracked: 1080.846ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Scanning for USB devices : 1.441ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-VCL_Windows
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+LightingSettings: switching bake backend from 2 to 1.
+Loaded scene 'Assets/Scenes/Persistent.unity'
+	Deserialize:            1.158 ms
+	Integration:            8.727 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   9.910 ms
+Unloading 4196 unused Assets / (2.6 MB). Loaded Objects now: 4791.
+Memory consumption went from 291.7 MB to 289.1 MB.
+Total: 7.920500 ms (FindLiveObjects: 0.349800 ms CreateObjectMapping: 1.393600 ms MarkObjects: 4.633100 ms  DeleteObjects: 1.541000 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\GITHUBProjects\VCL_V6\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/SANDERB7/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+[Project] Loading completed in 12.439 seconds
+	Project init time: 				10.779 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		2.233 seconds
+		Asset Database init time: 		1.076 seconds
+		Global illumination init time: 	0.007 seconds
+		Assemblies load time: 			0.906 seconds
+		Unity extensions init time: 	0.022 seconds
+		Asset Database refresh time: 	3.930 seconds
+	Scene opening time: 			1.005 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1784226199026,"processId":46948,"projectLoad":12.4385872,"projectInit":10.7786138,"templateInit":0.0,"packageManagerInit":2.2326266,"assetDatabaseInit":1.0758503,"globalIlluminationInit":0.0070926,"assembliesLoad":0.9063644,"unityExtensionsInit":0.021542,"assetDatabaseRefresh":3.9304678,"sceneOpening":1.0048315}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1784226199026,"processId":46948,"editorVersion":"6000.5.3f1 (c2eb47b3a2a9)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=76972500e1ba49348b50125272c45715): Total: 0.104 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Worker ready: AssetImportWorkerHW0 0
+Created GICache directory at C:/Users/SANDERB7/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.025s, timestamps: [12.572 - 12.597]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+The Microsoft GDK package is not installed. The selected store is FakeStore.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.PurchasingImporter:PromptGdkPackageInstall () (at ./Library/PackageCache/com.unity.purchasing@db17cc2e78b3/Editor/Importer.cs:99)
+UnityEditor.PurchasingImporter:Update () (at ./Library/PackageCache/com.unity.purchasing@db17cc2e78b3/Editor/Importer.cs:61)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.purchasing@db17cc2e78b3/Editor/Importer.cs Line: 99)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "sh_H16rA"... (expires: 2026-07-16T19:43:21Z)
+Starting new worker id: 1 with log in C:/GITHUBProjects/VCL_V6/Logs/AssetImportWorkerHW1.log
+Starting new worker id: 2 with log in C:/GITHUBProjects/VCL_V6/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: 3b5cc91c3bf8cf74391252247f52fb59 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'c848619c67e74d86443d8bbe9e5f1c35') in 0.0827313 seconds
+[Worker0] Imported GUID: a73109742c8d47ac822895a473300c29 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'd04ad05ff4fb5570ec3679370bd395df') in 0.0126536 seconds
+[Worker0] Imported GUID: 52ec835d14bd486f900952b77698b7eb - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'f023855648fc6b20e52ebe327ee2e3ad') in 0.0066624 seconds
+[Worker0] Imported GUID: e76e6c0f81964cbda3fe0b7d26ed8060 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '21c374b745c78d81b874aa75866afc97') in 0.007315 seconds
+[Worker0] Imported GUID: a4b6f99e8bc54541bbd149b014ff441c - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '20b93814e1dc6a00f18cefde4457998f') in 0.0077089 seconds
+[Worker0] Imported GUID: c3f814e1d12c45568daf3dd9a86a0e61 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '63f4c53d44175ae703542b2ecad08d36') in 0.0090997 seconds
+[Worker0] Imported GUID: 24b0dc2d1d494adbbec1f4db26b4cf83 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'f0af9598c98eb44ca0fc0e4c60af08bd') in 0.0073807 seconds
+[Worker0] Imported GUID: 21256c5b62f346f18640dad779911e20 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '8169ae34719967e4a4b0a0443c6430e0') in 0.0081885 seconds
+[Worker0] Imported GUID: ac1eb05af6d391b4eb0f4c070a99f1d0 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'eca7efd5b27dec777f6d4cfbeaa13f45') in 0.0078205 seconds
+[Worker0] Imported GUID: f970ea55f9f84bf79b05dab180b8c125 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '9fb4e44e27f859ea7752c7119792981c') in 0.0069204 seconds
+[Worker0] Imported GUID: 251716609f634449bfe8ce75c0ed78fe - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '46ba37121657864b4b5a2266d7cb08a9') in 0.0072497 seconds
+[Worker0] Imported GUID: 3b38a6ba32b869f48812e595baf39746 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/27 - Double Pass Shader Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '5f47ff30eb7bc46fc89179f39488e005') in 0.0072079 seconds
+[Worker0] Imported GUID: 337f92480dd24675aae9e79210fb1ad9 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '88a415d0704b3446b2a557246234f5ac') in 0.0065928 seconds
+[Worker0] Imported GUID: c9adb1f542a93ae489bacfeae21e8394 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '4326eb3fd27e65efe32a90f8037ebee2') in 0.0587205 seconds
+[Worker0] Imported GUID: 875684baf40f4d008ce806d03e2a81b2 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'c520e34ef861e55aa4f105f2442048f5') in 0.0089066 seconds
+[Worker0] Imported GUID: 8d176c01131de8f46ad61094e29d79b2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '25f07490f5a8dda6c8a00055bea47d66') in 0.007608 seconds
+[Worker0] Imported GUID: 4f19c7f94c794c5097d8bd11e39c750d - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'bfee2b3190c4bca46a8e6d361e8665c3') in 0.0076452 seconds
+[Worker0] Imported GUID: 03f9d74cec8e4b94a29d2dfd177c821b - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '4677790dae18f05e125a7b771eba0247') in 0.0077142 seconds
+[Worker0] Imported GUID: f4eec857a4fdf2f43be0e9f3d1a984e7 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '1bbdaac5845d4b0ac687fd12b669d263') in 0.0141159 seconds
+[Worker0] Imported GUID: d2cf87a8a7a94aa8b80dff1c807c1178 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '9b9be047dd643308f0aa521a677a41f7') in 0.0103087 seconds
+[Worker0] Imported GUID: 3e2e4d7b0bed4cf9ab827e9f32448f69 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'ef8b7a601599525c5e9b71c7b668d10f') in 0.0080693 seconds
+[Worker0] Imported GUID: 8f7137eacd7042d5b17ef0efe5e744f5 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '7c7f3d79e9268c09adae5a0847a59a8e') in 0.0066263 seconds
+[Worker0] Imported GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'd177b11c51d89836051cd85615576355') in 0.0151032 seconds
+[Worker0] Imported GUID: efe0bf4ac872451e91612d1ae593f480 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'c5bfefe16778af65fdf70f97bdf7bba1') in 0.0083083 seconds
+[Worker0] Imported GUID: eea2b7206368b444e84fbec4ec32b64a - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'fa8ea3c12bc5a7e19545611aa27dc20e') in 0.0067246 seconds
+[Worker0] Imported GUID: 947a44964e53bf0448ff698b2a2219c0 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '16a7b6c915d232d874d24ab0dbb60364') in 0.0155333 seconds
+[Worker0] Imported GUID: a4d4c76e63944cba8c7d00f56334b98c - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '9785fed5c4cb23f56de834d83b120caf') in 0.0081445 seconds
+[Worker0] Imported GUID: 6751ce1a4611b3940812c13a6847d94f - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '0bcfa112133c776629469f27de0e5899') in 0.0090522 seconds
+[Worker0] Imported GUID: a05dcd8be7ec4ccbb35c26219884aa37 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'cc1d0ecb64bdeac495a763e6bae7061b') in 0.007103 seconds
+[Worker0] Imported GUID: 53d91f98a2664f5cb9af11de72ac54ec - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'a49684b2306ae00f42956f916f2f3bc0') in 0.0064221 seconds
+[Worker0] Imported GUID: 0161d805a3764c089bef00bfe00793f5 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '7dd722256c9fd605ee4a6f8de500c1fc') in 0.021605 seconds
+[Worker0] Imported GUID: 71529b88994c1a341b22bc57c038674a - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - URP.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '981b4a81bd1d59f84ff19ad591df3ac7') in 0.0080285 seconds
+[Worker0] Imported GUID: 7f078a2ba1bb3e043b83f42f114f88e5 - Path: Assets/MyScripts/CharpyTests/DataManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'bef91f00e57b5301ae7872ab79da8055') in 0.0077126 seconds
+[Worker0] Imported GUID: 349f38d3606449708c7340d26740e1e2 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '39306daaacd2ecfc1e0449f9e8a6e61b') in 0.0080963 seconds
+[Worker0] Imported GUID: dc20866c0d5e413ab7559440e15333ae - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'a4aecdac1af6dea6fe39339705c6caa9') in 0.0072344 seconds
+[Worker0] Imported GUID: 50f52f9274434ecfb34dd87f0836f323 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'cec4989e78f6640c74eb491459f5825d') in 0.0079477 seconds
+[Worker0] Imported GUID: 39a1fa96ad2a449b908fca29d4297a74 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '1bbe30801bc32342e3fdf1fe5072953b') in 0.0072513 seconds
+[Worker0] Imported GUID: 9747140c28254be2adc582210dfb89b8 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'd8c1d965d636a2ab192f3cc3c36ba1b3') in 0.0082499 seconds
+[Worker0] Imported GUID: 6250f98e58fe4abbaada5d84b7ca846d - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '21525700b88fef8225b49c29c92e57ef') in 0.0078272 seconds
+[Worker0] Imported GUID: 22a2fba786ad4c40ac0ba09f0b933100 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '5ab2bc9207da0aa9be22b9dec1a89862') in 0.007576 seconds
+[Worker0] Imported GUID: a7eaeb4188c60454faf0a41c253b505c - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'b52dea92711a81e887c222d18953c171') in 0.0080768 seconds
+[Worker0] Imported GUID: 21a509e1d3cd49978623fa564adb6f02 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'fb22d96fac1e5679f6db6bdcbbf26238') in 0.0084758 seconds
+[Worker0] Imported GUID: 0251f66ebc602a944b35bccd13be2738 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Unity - OFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '2ead96416e72bf1841e335f5395c8b37') in 0.0067596 seconds
+[Worker0] Imported GUID: 2ddca8f46aa0838419d568affb0ca6b4 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - HDRP Unlit.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'af19b2a0582c8b514d243a8ebbb712b7') in 0.0100269 seconds
+[Worker0] Imported GUID: f9b4c22e15cff344ba9fc6542a58dd07 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'fd048e5af13d8117cfb5b1de16136274') in 0.0080732 seconds
+[Worker0] Imported GUID: 9eff140b25d64601aabc6ba32245d099 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '8b7974e7f84c3ec4d324c13775a812fd') in 0.0085782 seconds
+[Worker0] Imported GUID: 967f61bb1e3e28645a39e0cb647cc79e - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Outline.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '031a01df6c750c3dd1b7f6e694bc24ff') in 0.0082252 seconds
+[Worker0] Imported GUID: e32c266ee6204b21a427753cb0694c81 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'c2db81c0a62469decc4bb2505bd5eb60') in 0.0080529 seconds
+[Worker0] Imported GUID: 90722b8bd74d9aa49958562aff7bdf76 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - URP.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '04533175823c39966a1604b930255013') in 0.0077186 seconds
+[Worker0] Imported GUID: 0851605490a599b46b6ac5cb681d93ea - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '3a17a2532c637163b4d3a0cbf4d4c667') in 0.0069562 seconds
+[Worker0] Imported GUID: 03ec435d4b7140e9b2d87f79136d8374 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '57024015d92a6177fda249df1bae2702') in 0.0078809 seconds
+[Worker0] Imported GUID: 54e994244b4b467e8583cf2da6dcc716 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '114ed04f1b36afbd37e2552961f021f4') in 0.0067986 seconds
+[Worker0] Imported GUID: 70615243e2be4a81afaab9bf5d273d65 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '1164a8628024587402a346d66e17a5ea') in 0.0078905 seconds
+[Worker0] Imported GUID: 9442cda25baa4a0bb544c4d095b00caa - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '05c7b4bcf875bf7fb0b9c1c630d598bc') in 0.0080341 seconds
+[Worker0] Imported GUID: 5302535af1044152a457ed104f1f4b91 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '0b1f27b0d03c02d596cd3f811ed3107d') in 0.0152342 seconds
+[Worker0] Imported GUID: 8c4969fd8ba94a68b07cf11f3e7a5137 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '6d06480565da2ba9509db722316a4403') in 0.0081578 seconds
+[Worker0] Imported GUID: 125cb55b44b24c4393181402bc6200e6 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'd899f9d7983cbb48437d2d81114d4dfc') in 0.0177498 seconds
+[Worker0] Imported GUID: 686ec78b56aa445795335fbadafcfaa4 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '93bbebb2a5fcf769dbddb4e2da9c6b99') in 0.010031 seconds
+[Worker0] Imported GUID: 9abcd5bd764646568a6ea70d00f9264c - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '5e5c91241ffadd9696e5510b07b19b98') in 0.0096589 seconds
+[Worker0] Imported GUID: 3dbe1df1236d384409a22f636eb06750 - Path: Assets/MyScripts/CharpyTests/ImpactTesterController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'a8cf7ca4c0355a812c607dbea3e0c7b8') in 0.0121624 seconds
+[Worker0] Imported GUID: 1a7eb92a01ed499a987bde9def05fbce - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'c2fcb99e60f87c75012e62024c8f351c') in 0.0088679 seconds
+[Worker0] Imported GUID: f0303f887b8fa7243a51432c478ff2f3 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - License.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '716b88c0587b71443060e4c11e93074f') in 0.007423 seconds
+[Worker0] Imported GUID: 83ba2e375bed45f48bce43e5a5f7c88a - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example/Sky and Fog Volume Profile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '9e7bb874d7da822ba83dd25e78371eaa') in 0.0064354 seconds
+[Worker0] Imported GUID: 08572ab7713642c8a60789750f0bce5c - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'be233f7efcd43ece80261c01ba40f70a') in 0.006989 seconds
+[Worker0] Imported GUID: 8f586378b4e144a9851e7b34d9b748ee - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '0d2bc62358dc215c1c60e7eb518a132d') in 0.0265533 seconds
+[Worker0] Imported GUID: cf81c85f95fe47e1a27f6ae460cf182c - Path: Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'a8f68ed077621a60bb23aa1b829261cc') in 0.0226018 seconds
+[Worker0] Imported GUID: f63d574838ccfb44f84acc05fed0af48 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'b3a1a886a25eeec1f6c0eb37bbe496ed') in 0.0098834 seconds
+[Worker0] Imported GUID: f952c082cb03451daed3ee968ac6c63e - Path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'd902480858637aec447c225c4bb91e04') in 0.0112758 seconds
+[Worker0] Imported GUID: 2ac8cf212df6445e8aebbe3cb832e993 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '72f4210239730a51408d13489af35423') in 0.0083821 seconds
+[Worker0] Imported GUID: c8d12adcee749c344b8117cf7c7eb912 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '89206d5b487edd75d81dc4110b9e822b') in 0.0093685 seconds
+[Worker0] Imported GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '14c9dcc64d87c8637e1f34c0cc652762') in 0.0122039 seconds
+[Worker0] Imported GUID: 16177da2e3254cee91944756d5f8ddd3 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '9c0cc1664615fd8ff4807d9f239c6566') in 0.0074736 seconds
+[Worker0] Imported GUID: 96de908384869cd409c75efa351d5edf - Path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '09df4c1b391b05f1d456364355a4ac0f') in 0.0077301 seconds
+[Worker0] Imported GUID: 5fe2257128d9401fad0790f581dc8a6f - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'be7ff6cb26b0b9d80f6df84f77593d0a') in 0.0090067 seconds
+[Worker0] Imported GUID: c334973cef89a9840b0b0c507e0377ab - Path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'acfe58320049deb6516ca9390c509b29') in 0.0082761 seconds
+[Worker0] Imported GUID: 57694ed9d1cd1e340a4924c0f2eac8e3 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example URP.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '1f58f150bc20636183a6329a1a199b5a') in 0.0069085 seconds
+[Worker0] Imported GUID: 1312ae25639a4bae8e25ae223209cc50 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '25cec99442a7ba6ffe3692b06d64a791') in 0.0077851 seconds
+[Worker0] Imported GUID: 14eb328de4b8eb245bb7cea29e4ac00b - Path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '21415a417b81a4a29013b6f39212b5cc') in 0.0105489 seconds
+[Worker0] Imported GUID: 3997e2241185407d80309a82f9148466 - Path: Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'a4067fba5b3d73cc8421fd506613631c') in 0.008755 seconds
+[Worker0] Imported GUID: 128e987d567d4e2c824d754223b3f3b0 - Path: Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '6713da9db3f41d17a80eba1d400c5fb0') in 0.009397 seconds
+[Worker0] Imported GUID: f7ada0af4f174f0694ca6a487b8f543d - Path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '0b28b7d840a89d9134744f013b37a239') in 0.0195287 seconds
+[Worker0] Imported GUID: 68e6db2ebdc24f95958faec2be5558d6 - Path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'ca4bec108f7d6842b3ef8805ab7e2ddc') in 0.0100308 seconds
+[Worker0] Imported GUID: d930090c0cd643c7b55f19a38538c162 - Path: Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '79d74eb24b701a38cc93392958650d1a') in 0.0076581 seconds
+[Worker0] Imported GUID: d82c1b31c7e74239bff1220585707d2b - Path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '883cb5d9b9f6d643af21c35cd980fac2') in 0.0084155 seconds
+[Worker0] Imported GUID: 73a79399807f4e8388c2cbb5494681ca - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '61e80f781f6d1795aed6b5d7c64bdbc1') in 0.013444 seconds
+[Worker0] Imported GUID: fe393ace9b354375a9cb14cdbbc28be4 - Path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '9bdac8df355812647d52e39740af5191') in 0.0103613 seconds
+[Worker0] Imported GUID: acb62c301e552604da7a428e48e9e594 - Path: Assets/Scenes/TestLab.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'a4273496f7225e74de73e584f841d033') in 0.0144414 seconds
+[Worker0] Imported GUID: dc36b3fdc14f47ebb36fd484a67e268a - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '0a444111d314731923e1ac82a6342ade') in 0.0159267 seconds
+[Worker0] Imported GUID: 0178fcb869bafef4690d177d31d17db8 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '1f7765338d5ad8a3b2df552a4c8a9f04') in 0.0087676 seconds
+[Worker0] Imported GUID: 1e3b057af24249748ff873be7fafee47 - Path: Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '61f0ba785f71d095168b63a0f2264751') in 0.007283 seconds
+[Worker0] Imported GUID: 84ed36ad77dd4956b2ffe3769f759879 - Path: Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '91fbdbb4b92a5b86db21fe86719e6468') in 0.0069497 seconds
+[Worker0] Imported GUID: 3f5b5dff67a942289a9defa416b206f3 - Path: Assets/TextMesh Pro/Resources/TMP Settings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'dd7e144e1827253cc9f520217f4e0ed7') in 0.0315292 seconds
+[Worker0] Imported GUID: 407bc68d299748449bbf7f48ee690f8d - Path: Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '3256274faa3f2def204a402049e3b974') in 0.0163375 seconds
+[Worker0] Imported GUID: 124c112a6e8f1a54e8b0870e881b56d8 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '65ab75167061cb460989e543cf0a6e7a') in 0.0078368 seconds
+[Worker0] Imported GUID: bc1ede39bf3643ee8e493720e4259791 - Path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '42e18ef3e07002a126b7ee9090a2cd05') in 0.00998 seconds
+[Worker0] Imported GUID: dd89cf5b9246416f84610a006f916af7 - Path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'f9d541e9c98cc232b7791e3bd5a4e732') in 0.0080831 seconds
+[Worker0] Imported GUID: ca2ed216f98028c4dae6c5224a952b3c - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'a0c1efefe675dbcb6a199356af9a0c79') in 0.0069883 seconds
+[Worker0] Imported GUID: f28c334d44214474d9702d3ad79ecb0a - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - AFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '39b4d2d3f41e5aa3b7fecd0fcfef10ed') in 0.0074891 seconds
+[Worker0] Imported GUID: 85187c2149c549c5b33f0cdb02836b17 - Path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '39853f7dac625ecfaf8cd5214a3d3fbb') in 0.0066421 seconds
+[Worker0] Imported GUID: e9f693669af91aa45ad615fc681ed29f - Path: Assets/TextMesh Pro/Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '031db02e22a479599a34aa8c8d9abd72') in 0.0170977 seconds
+[Worker0] Imported GUID: 14aa93acbb234d16aaef0e8b46814db6 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'd4ed8a4603ec36643f0a39717b9aef5a') in 0.0115034 seconds
+[Worker0] Imported GUID: d736ce056cf444ca96e424f4d9c42b76 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'db9a37e1a90d4d29a7070b47813700e8') in 0.0082689 seconds
+[Worker0] Imported GUID: a02a7d8c237544f1962732b55a9aebf1 - Path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: 'a4441e26f4e5cc5c86d3b53d526dd580') in 0.0091939 seconds
+[Worker0] Imported GUID: a3d800b099a06e0478fb790c5e79057a - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '84c4aed8997a45d53de09bc103a9d237') in 0.0087176 seconds
+[Worker0] Imported GUID: e8538afcddc14efbb5d9e94b7ae50197 - Path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '3e5b9aec8d795343087fbda623e7afa3') in 0.0075331 seconds
+[Worker0] Imported GUID: 48bb5f55d8670e349b6e614913f9d910 - Path: Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '52b6c0145412b3c2bb60caa10e8e41ce') in 0.0078737 seconds
+Worker ready: AssetImportWorkerHW1 1
+Worker ready: AssetImportWorkerHW2 2
+TrimDiskCacheJob: Current cache size 5601mb
+Asset Pipeline Refresh (id=bd64626d37d8d0245b60b6a5d7157c4b): Total: 0.018 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker2] Imported GUID: 3dbe1df1236d384409a22f636eb06750 - Path: Assets/MyScripts/CharpyTests/ImpactTesterController.cs - Importer: PreviewImporter -> (ImportResultId: '3c28f58d168c2c359e123a634e2d5abd') in 0.0080438 seconds
+[Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Refreshing native plugins compatible for Editor in 20.41 ms, found 3 plugins.
+Asset Pipeline Refresh (id=7169394823b84f149a07e9b48cbe3356): Total: 0.179 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[Worker2] Imported GUID: 3dbe1df1236d384409a22f636eb06750 - Path: Assets/MyScripts/CharpyTests/ImpactTesterController.cs - Importer: PreviewImporter -> (ImportResultId: '8a7288dacad47b7852e27edfb0248833') in 0.0012043 seconds
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 2.1948ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/GITHUBProjects/VCL_V6
+[Worker2] Imported GUID: 3dbe1df1236d384409a22f636eb06750 - Path: Assets/MyScripts/CharpyTests/ImpactTesterController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI03 -> (ImportResultId: '7e5b70d2a45beea2f3636b7ad5335bfb') in 0.0740336 seconds
+ExitCode: 0 Duration: 2s784ms
+[741/747    2s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\MyScripts\LaminateScripts\IO\CompositeProperties.cs(23,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\LaminateScripts\IO\GetLayerProperties.cs(21,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\LaminateScripts\IO\GetLaminateProperties.cs(14,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\LaminateScripts\IO\LaminateVisuals.cs(22,25): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\LaminateScripts\IO\LaminateLayerMaterials.cs(17,41): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\LaminateScripts\IO\LaminateVisuals.cs(27,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\MaterialSelection\DragHandler.cs(17,22): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\LaminateScripts\IO\LaminateVisuals.cs(59,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\MaterialSelection\Slot.cs(16,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\MaterialSelection\Slot.cs(17,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\Utility\ScatterGraphScript.cs(59,30): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\SceneNavigation\DesignMenu.cs(19,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\SceneNavigation\DesignMenu.cs(20,27): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\SceneNavigation\DesignMenu.cs(22,31): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\SceneNavigation\LoginSceneController.cs(21,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\SceneNavigation\SceneController.cs(15,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\SceneNavigation\SceneController.cs(16,34): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\SceneNavigation\SceneNavigationManager.cs(16,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\Utility\DisplayStudentName.cs(17,34): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\Utility\RotateAxis.cs(13,27): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\TestSceneCanvasManager.cs(17,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\Utility\ExperimentCameraController.cs(40,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\Test Scripts\ThreePointBendTestController.cs(41,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\Test Scripts\ThreePointBendTestController.cs(42,27): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\Test Scripts\TensileTestController.cs(73,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\MyScripts\Test Scripts\TensileTestController.cs(95,31): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+
+Assets\GraphMaster\Scripts\Internal\Utils.cs(92,14): warning CS0618: 'Object.FindObjectsOfType(Type)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID, but if you do not need this using FindObjectSortMode.None is considerably faster.'
+
+Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\SkinnedMeshSine.cs(41,15): warning CS0414: The field 'SkinnedMeshSine.ISkinned' is assigned but its value is never used
+
+Assets\MyScripts\CharpyTests\ImpactTesterController.cs(34,18): warning CS0414: The field 'ImpactTesterController.returning' is assigned but its value is never used
+
+Assets\MyScripts\LaminateScripts\LaminateMechanics.cs(17,21): warning UAC1009: Field 'ABDMatrix' uses an unsupported type 'float[*,*]'. Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.5/Documentation/Manual/script-serialization-analyzer.html#uac1009)
+
+Assets\GraphMaster\Scripts\Internal\GraphMeshUGiu.cs(37,20): warning UAC1010: Field 'vertexListRects' type 'UnityEngine.UIVertex' is not [Serializable]; [SerializeField] is ignored. Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.5/Documentation/Manual/script-serialization-analyzer.html#uac1010)
+
+Assets\GraphMaster\Scripts\Internal\GraphMeshUGiu.cs(40,20): warning UAC1010: Field 'vertexListTriangles' type 'UnityEngine.UIVertex' is not [Serializable]; [SerializeField] is ignored. Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.5/Documentation/Manual/script-serialization-analyzer.html#uac1010)
+
+Assets\GraphMaster\Scripts\Internal\Graph.cs(41,36): warning UAC1009: Field 'dataSeriesByName' uses an unsupported type 'System.Collections.Generic.Dictionary<string, GraphMaster.DataSeries>'. Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.5/Documentation/Manual/script-serialization-analyzer.html#uac1009)
+[745/747    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[746/747    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (2.45 seconds), 3 items updated, 747 evaluated
+Assets\MyScripts\LaminateScripts\IO\CompositeProperties.cs(23,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\LaminateScripts\IO\GetLayerProperties.cs(21,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\LaminateScripts\IO\GetLaminateProperties.cs(14,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\LaminateScripts\IO\LaminateVisuals.cs(22,25): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\LaminateScripts\IO\LaminateLayerMaterials.cs(17,41): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\LaminateScripts\IO\LaminateVisuals.cs(27,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\MaterialSelection\DragHandler.cs(17,22): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\LaminateScripts\IO\LaminateVisuals.cs(59,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\MaterialSelection\Slot.cs(16,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\MaterialSelection\Slot.cs(17,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\Utility\ScatterGraphScript.cs(59,30): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\SceneNavigation\DesignMenu.cs(19,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\SceneNavigation\DesignMenu.cs(20,27): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\SceneNavigation\DesignMenu.cs(22,31): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\SceneNavigation\LoginSceneController.cs(21,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\SceneNavigation\SceneController.cs(15,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\SceneNavigation\SceneController.cs(16,34): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\SceneNavigation\SceneNavigationManager.cs(16,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\Utility\DisplayStudentName.cs(17,34): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\Utility\RotateAxis.cs(13,27): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\TestSceneCanvasManager.cs(17,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\Utility\ExperimentCameraController.cs(40,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\Test Scripts\ThreePointBendTestController.cs(41,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\Test Scripts\ThreePointBendTestController.cs(42,27): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\Test Scripts\TensileTestController.cs(73,26): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\MyScripts\Test Scripts\TensileTestController.cs(95,31): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindAnyObjectByType instead.'
+Assets\GraphMaster\Scripts\Internal\Utils.cs(92,14): warning CS0618: 'Object.FindObjectsOfType(Type)' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID, but if you do not need this using FindObjectSortMode.None is considerably faster.'
+Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\SkinnedMeshSine.cs(41,15): warning CS0414: The field 'SkinnedMeshSine.ISkinned' is assigned but its value is never used
+Assets\MyScripts\CharpyTests\ImpactTesterController.cs(34,18): warning CS0414: The field 'ImpactTesterController.returning' is assigned but its value is never used
+Assets\MyScripts\LaminateScripts\LaminateMechanics.cs(17,21): warning UAC1009: Field 'ABDMatrix' uses an unsupported type 'float[*,*]'. Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.5/Documentation/Manual/script-serialization-analyzer.html#uac1009)
+Assets\GraphMaster\Scripts\Internal\GraphMeshUGiu.cs(37,20): warning UAC1010: Field 'vertexListRects' type 'UnityEngine.UIVertex' is not [Serializable]; [SerializeField] is ignored. Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.5/Documentation/Manual/script-serialization-analyzer.html#uac1010)
+Assets\GraphMaster\Scripts\Internal\GraphMeshUGiu.cs(40,20): warning UAC1010: Field 'vertexListTriangles' type 'UnityEngine.UIVertex' is not [Serializable]; [SerializeField] is ignored. Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.5/Documentation/Manual/script-serialization-analyzer.html#uac1010)
+Assets\GraphMaster\Scripts\Internal\Graph.cs(41,36): warning UAC1009: Field 'dataSeriesByName' uses an unsupported type 'System.Collections.Generic.Dictionary<string, GraphMaster.DataSeries>'. Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.5/Documentation/Manual/script-serialization-analyzer.html#uac1009)
+Reloading assemblies after finishing script compilation.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 13.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.621 seconds
+Domain Reload Profiling: 2610ms
+	BeginReloadAssembly (603ms)
+		DisableScriptedObjects (182ms)
+		CreateAndSetChildDomain (216ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (170ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (103ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1622ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (179ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (672ms)
+
+Asset Pipeline Refresh (id=86ce031980e973d4eb954024b697bd5a): Total: 2.851 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1740 ms
+		Asset DB Callback time: managed=27 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1077 ms, compile time=4 ms, other=0 ms
+		Project Asset Count: scripts=1304, non-scripts=2917
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 3.423ms
+	ApplyChangesToAssetFolders: 0.400ms
+	Collect global state as custom dependencies: 0.140ms
+	ProcessAssetsWithTransientArtifactChanges: 2.626ms
+	CategorizeAssets: 27.831ms
+	CompileScripts: 4.046ms
+	ImportOutOfDateAssets: 1668.784ms (1647.481ms without children)
+		UnloadImportedAssets: 1.660ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.593ms
+		ImportSchedulerStart: 19.014ms
+	PostProcessAllAssets: 27.953ms
+		MonoPostProcessAllAssets: 27.947ms
+			AssetPostprocessor.OnPostprocessAllAssets 43.930ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 13.457ms
+			SyncVS.PostprocessSyncProject 3.584ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.670ms
+			PackageManagerResolver.OnPostprocessAllAssets 1.389ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 1.101ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.068ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.055ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.828ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.774ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.737ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.594ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.561ms
+			PlayServicesResolver.OnPostprocessAllAssets 0.530ms
+			AssetProcessor.OnPostprocessAllAssets 0.508ms
+			AssetChangedListener.OnPostprocessAllAssets 0.476ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.474ms
+			IOSResolver.OnPostprocessAllAssets 0.431ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.401ms
+			VersionHandlerImpl.OnPostprocessAllAssets 0.372ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.370ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.330ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.282ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.279ms
+			AssetEvents.OnPostprocessAllAssets 0.262ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.240ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.227ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.192ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.178ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.154ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.105ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.087ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.171ms
+	PersistCurrentRevisions: 0.119ms
+	GenerateScriptTypeHashes: 1.885ms
+	GenerateScriptTypeSerializationHashes: 4.069ms
+	Untracked: 1105.030ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+The Microsoft GDK package is not installed. The selected store is FakeStore.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.PurchasingImporter:PromptGdkPackageInstall () (at ./Library/PackageCache/com.unity.purchasing@db17cc2e78b3/Editor/Importer.cs:99)
+UnityEditor.PurchasingImporter:Update () (at ./Library/PackageCache/com.unity.purchasing@db17cc2e78b3/Editor/Importer.cs:61)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.purchasing@db17cc2e78b3/Editor/Importer.cs Line: 99)
+
+Asset Pipeline Refresh (id=df71bf5d3a5aef045a1055ed4a5c22f3): Total: 0.019 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 16.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.230 seconds
+Domain Reload Profiling: 1915ms
+	BeginReloadAssembly (476ms)
+		DisableScriptedObjects (149ms)
+		CreateAndSetChildDomain (175ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (122ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+	FinalizeReload (1231ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (502ms)
+
+Asset Pipeline Refresh (id=917198cdad09ac546a5c114c808877bc): Total: 2.090 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1337 ms
+		Asset DB Callback time: managed=18 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=731 ms, compile time=3 ms, other=0 ms
+		Project Asset Count: scripts=1304, non-scripts=2917
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.217ms
+	ApplyChangesToAssetFolders: 0.289ms
+	Collect global state as custom dependencies: 0.109ms
+	ProcessAssetsWithTransientArtifactChanges: 0.120ms
+	CategorizeAssets: 23.360ms
+	CompileScripts: 2.512ms
+	ImportOutOfDateAssets: 1271.542ms (1257.536ms without children)
+		UnloadImportedAssets: 0.182ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.570ms
+		ImportSchedulerStart: 13.224ms
+	PostProcessAllAssets: 18.094ms
+		MonoPostProcessAllAssets: 18.089ms
+			AssetPostprocessor.OnPostprocessAllAssets 43.930ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.239ms
+			SyncVS.PostprocessSyncProject 3.074ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.670ms
+			PackageManagerResolver.OnPostprocessAllAssets 1.389ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 1.101ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.055ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.828ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.737ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.680ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.594ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.561ms
+			PlayServicesResolver.OnPostprocessAllAssets 0.530ms
+			AssetProcessor.OnPostprocessAllAssets 0.508ms
+			AssetChangedListener.OnPostprocessAllAssets 0.476ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.474ms
+			IOSResolver.OnPostprocessAllAssets 0.431ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.401ms
+			VersionHandlerImpl.OnPostprocessAllAssets 0.372ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.279ms
+			AssetEvents.OnPostprocessAllAssets 0.262ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.257ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.240ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.230ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.227ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.192ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.178ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.132ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.126ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.124ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.105ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.069ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.236ms
+	UnloadStreamsBegin: 1.705ms
+	PersistCurrentRevisions: 0.151ms
+	GenerateScriptTypeHashes: 1.799ms
+	GenerateScriptTypeSerializationHashes: 3.511ms
+	Untracked: 757.489ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.486 ms
+	Integration:            73.798 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.034 ms
+	Total Operation Time:   74.321 ms
+LightingSettings: switching bake backend from 2 to 1.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+[Licensing::Client] Successfully resolved entitlement details
+UnloadTime: 0.414500 ms
+Computing lightmaps is not available in play mode.
+Loaded scene 'Assets/Scenes/Navigation/StartUpScene.unity'
+	Deserialize:            36.707 ms
+	Integration:            51.856 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       602.444 ms
+	Total Operation Time:   691.011 ms
+Unloading 147 unused Assets / (17.1 MB). Loaded Objects now: 5939.
+Memory consumption went from 506.9 MB to 489.8 MB.
+Total: 13.606700 ms (FindLiveObjects: 0.297400 ms CreateObjectMapping: 0.641300 ms MarkObjects: 9.220600 ms  DeleteObjects: 3.445800 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.616500 ms
+Loaded scene 'Assets/Scenes/Navigation/MainMenu.unity'
+	Deserialize:            6.485 ms
+	Integration:            136.994 ms
+	Integration of assets:  0.084 ms
+	Thread Wait Time:       1.923 ms
+	Total Operation Time:   145.486 ms
+Unloading 18 unused Assets / (219.8 KB). Loaded Objects now: 6063.
+Memory consumption went from 504.8 MB to 504.6 MB.
+Total: 10.360300 ms (FindLiveObjects: 0.304100 ms CreateObjectMapping: 0.632700 ms MarkObjects: 9.329100 ms  DeleteObjects: 0.093000 ms)
+
+LightingSettings: switching bake backend from 2 to 1.
+Unloading 403 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.086800 ms
+Loaded scene 'Assets/Scenes/TestLab.unity'
+	Deserialize:            724.071 ms
+	Integration:            59.972 ms
+	Integration of assets:  2.588 ms
+	Thread Wait Time:       5.600 ms
+	Total Operation Time:   792.230 ms
+Unloading 886 unused Assets / (2.5 MB). Loaded Objects now: 9045.
+Memory consumption went from 0.83 GB to 0.83 GB.
+Total: 15.189300 ms (FindLiveObjects: 0.637300 ms CreateObjectMapping: 0.831800 ms MarkObjects: 12.581000 ms  DeleteObjects: 1.137700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+LightingSettings: switching bake backend from 2 to 1.
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.398 ms
+	Integration:            9.557 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.121 ms
+	Total Operation Time:   10.078 ms
+Unloading 302 unused Assets / (28.4 MB). Loaded Objects now: 5945.
+Memory consumption went from 0.82 GB to 0.79 GB.
+Total: 13.984800 ms (FindLiveObjects: 0.330400 ms CreateObjectMapping: 0.687800 ms MarkObjects: 10.215500 ms  DeleteObjects: 2.749900 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 2.130ms
+Scanning for USB devices : 2.071ms
+Scanning for USB devices : 1.622ms
+Scanning for USB devices : 1.337ms
+Scanning for USB devices : 1.782ms
+Scanning for USB devices : 2.231ms
+Scanning for USB devices : 1.649ms
+Scanning for USB devices : 1.756ms
+Scanning for USB devices : 1.737ms
+Scanning for USB devices : 1.642ms
+Scanning for USB devices : 1.563ms
+Scanning for USB devices : 1.696ms
+Scanning for USB devices : 48.061ms
+Scanning for USB devices : 2.150ms
+Scanning for USB devices : 2.612ms
+Scanning for USB devices : 1.535ms
+Scanning for USB devices : 558.755ms
+Asset Pipeline Refresh (id=a8642531ea0cce441a95c289a15718a3): Total: 0.019 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Scanning for USB devices : 9.166ms
+Scanning for USB devices : 2.846ms
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "07/16/2026 19:02:15 +00:00", the heartbeat has been running for "00:00:04.4102070" which is longer than "00:00:01". This could be caused by thread pool starvation.
+Scanning for USB devices : 1.711ms
+Scanning for USB devices : 3.563ms
+Asset Pipeline Refresh (id=62eb6b19c38d5fc4ba12c6f5c7c936ab): Total: 0.019 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Scanning for USB devices : 3.884ms
+Scanning for USB devices : 3.091ms
+IPCStream (Upm-46948): IPC stream failed to read (Not connected)
+Unexpected transport error from import worker 2 (possible crash). code=10054 error=An existing connection was forcibly closed by the remote host. -- for more information, check Logs/AssetImportWorkerHW2.log
+[OnDemand] Worker 2: WorkerState(Connected), ImporterState(Idle) session transport - while handling importAddress Guid(00000000000000000000000000000000) Importer(-2,00000000000000000000000000000000) - path  - see the AssetImportWorker log for worker 2 at /Logs.
+Unexpected transport error from import worker 1 (possible crash). code=10054 error=An existing connection was forcibly closed by the remote host. -- for more information, check Logs/AssetImportWorkerHW1.log
+[OnDemand] Worker 1: WorkerState(Connected), ImporterState(Idle) session transport - while handling importAddress Guid(00000000000000000000000000000000) Importer(-2,00000000000000000000000000000000) - path  - see the AssetImportWorker log for worker 1 at /Logs.
+Scanning for USB devices : 1.105ms
+Scanning for USB devices : 1.228ms
+IPCStream (hubIPCService): IPC stream failed to read (Not connected)
+[Licensing::Module] Error: The connection with the Unity Licensing Client has been lost. Attempting to reconnect.
+[Licensing::IpcConnector] Channel LicenseClient-SANDERB7 doesn't exist
+[Licensing::IpcConnector] Channel LicenseClient-SANDERB7-6000.5.3 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 36784)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-SANDERB7-6000.5.3, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-SANDERB7-6000.5.3" at "2026-07-16T19:04:49.8299537Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 36784, path: "C:/Program Files/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              27db1ef84d804869a6b1c9be133f8fcc
+  Correlation Id:          cdc30783870a386c86e48041e8123179
+  External correlation Id: 2877821081037727701
+  Machine Id:              xfS15U/JigKcG5rBATI6XDPNZAE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-SANDERB7-6000.5.3" (connect: 0.57s, validation: 0.47s, handshake: 0.02s)
+[Licensing::Module] Connected to LicensingClient (PId: 36784, launch time: 0.13, total connection time: 1.05s)
+[Licensing::Module] The re-connection attempt was successful.
+[Licensing::Client] Connection to LicenseClient-SANDERB7-6000.5.3-notifications lost
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-SANDERB7-6000.5.3-notifications" at "2026-07-16T19:04:50.3199578Z"
+MonoPathRemapper: Attempts to remap: 22868; Successful remaps: 6
+Serialized file version minimum: 21, current 23
+[LAYOUT] About to save layout C:\GITHUBProjects\VCL_V6\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/SANDERB7/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Starting new worker id: 3 with log in C:/GITHUBProjects/VCL_V6/Logs/AssetImportWorkerHW3.log
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-SANDERB7-6000.5.3-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-SANDERB7-6000.5.3 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Shut down.
+abort_threads: Failed aborting id: 0000000000009678, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000048FC, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000009678, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000048FC, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4496
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1784228701370,"processId":46948,"allocatedMemory":50092484,"memoryLabels":[{"Default":218857},{"Permanent":15516},{"NewDelete":72065},{"Thread":4197560},{"Manager":35781},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":853091},{"Material":24},{"GfxDevice":55328},{"Animation":952},{"Audio":368},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":195872},{"Input":42840},{"JobScheduler":256},{"TextLib":27478},{"Mono":48},{"ScriptingNativeRuntime":707732},{"BaseObject":1834115},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":78430},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9377},{"StaticString":3808},{"Utility":2674538},{"PoolAlloc":2168},{"AI":80},{"TypeTree":125596},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":6808},{"WebRequest":9225},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33049440},{"Camera":17},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":250888},{"CoreStats":13688},{"Identifiers":6768},{"Gui":222},{"EditorUtility":216692},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4896496},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35337},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":214},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3486},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}

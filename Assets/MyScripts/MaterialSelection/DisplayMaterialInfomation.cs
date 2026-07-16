@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
+using TexDrawLib;
 
 public class DisplayMaterialInfomation : MonoBehaviour
 {
