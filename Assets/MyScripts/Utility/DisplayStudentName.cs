@@ -14,8 +14,8 @@ public class DisplayStudentName : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dataController         = FindObjectOfType<DataController>();
-
+        //dataController         = FindAnyObjectByType<DataController>();
+        dataController  = FindAnyObjectByType<DataController>();
         if (studentName != null)
            DisplayName();
 

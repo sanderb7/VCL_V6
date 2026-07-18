@@ -7,16 +7,32 @@
       "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\charpytests\\impacttestercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\charpytests\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\charpytests\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\materialselection\\draghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\materialselection\\draghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\materialselection\\displaymaterialinfomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\materialselection\\displaymaterialinfomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\laminatescripts\\io\\getlaminateproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\laminatescripts\\io\\getlaminateproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\scenenavigation\\menudescriptors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\scenenavigation\\menudescriptors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\utility\\experimentcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\utility\\experimentcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\testscenecanvasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\testscenecanvasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\scenenavigation\\scenenavigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\scenenavigation\\scenenavigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\charpytests\\testspecimencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\charpytests\\testspecimencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuDescriptors.cs",
-              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\SceneNavigation\\MenuDescriptors.cs",
-              "RelativeDocumentMoniker": "Assets\\MyScripts\\SceneNavigation\\MenuDescriptors.cs",
-              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\SceneNavigation\\MenuDescriptors.cs",
-              "RelativeToolTip": "Assets\\MyScripts\\SceneNavigation\\MenuDescriptors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T19:01:54.292Z",
-              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -52,14 +55,74 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DataManager.cs",
-              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\CharpyTests\\DataManager.cs",
-              "RelativeDocumentMoniker": "Assets\\MyScripts\\CharpyTests\\DataManager.cs",
-              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\CharpyTests\\DataManager.cs",
-              "RelativeToolTip": "Assets\\MyScripts\\CharpyTests\\DataManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Title": "DragHandler.cs",
+              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\MaterialSelection\\DragHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScripts\\MaterialSelection\\DragHandler.cs",
+              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\MaterialSelection\\DragHandler.cs",
+              "RelativeToolTip": "Assets\\MyScripts\\MaterialSelection\\DragHandler.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwvzoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T20:39:33.3Z"
+              "WhenOpened": "2026-07-18T21:36:09.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetLaminateProperties.cs",
+              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\LaminateScripts\\IO\\GetLaminateProperties.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScripts\\LaminateScripts\\IO\\GetLaminateProperties.cs",
+              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\LaminateScripts\\IO\\GetLaminateProperties.cs",
+              "RelativeToolTip": "Assets\\MyScripts\\LaminateScripts\\IO\\GetLaminateProperties.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T21:27:54.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExperimentCameraController.cs",
+              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\Utility\\ExperimentCameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScripts\\Utility\\ExperimentCameraController.cs",
+              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\Utility\\ExperimentCameraController.cs",
+              "RelativeToolTip": "Assets\\MyScripts\\Utility\\ExperimentCameraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T20:50:22.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScripts\\AudioManager.cs",
+              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\MyScripts\\AudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T20:16:14.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestSceneCanvasManager.cs",
+              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\TestSceneCanvasManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScripts\\TestSceneCanvasManager.cs",
+              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\TestSceneCanvasManager.cs",
+              "RelativeToolTip": "Assets\\MyScripts\\TestSceneCanvasManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T20:10:46.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SceneNavigationManager.cs",
+              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\SceneNavigation\\SceneNavigationManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScripts\\SceneNavigation\\SceneNavigationManager.cs",
+              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\SceneNavigation\\SceneNavigationManager.cs",
+              "RelativeToolTip": "Assets\\MyScripts\\SceneNavigation\\SceneNavigationManager.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T20:09:13.424Z"
             },
             {
               "$type": "Document",
@@ -69,22 +132,22 @@
               "RelativeDocumentMoniker": "Assets\\MyScripts\\CharpyTests\\ImpactTesterController.cs",
               "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\CharpyTests\\ImpactTesterController.cs",
               "RelativeToolTip": "Assets\\MyScripts\\CharpyTests\\ImpactTesterController.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAIwMsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAuwHIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T19:17:29.712Z",
+              "WhenOpened": "2026-07-18T20:02:03.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DisplayMaterialInfomation.cs",
-              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\MaterialSelection\\DisplayMaterialInfomation.cs",
-              "RelativeDocumentMoniker": "Assets\\MyScripts\\MaterialSelection\\DisplayMaterialInfomation.cs",
-              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\MaterialSelection\\DisplayMaterialInfomation.cs",
-              "RelativeToolTip": "Assets\\MyScripts\\MaterialSelection\\DisplayMaterialInfomation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "TestSpecimenController.cs",
+              "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\CharpyTests\\TestSpecimenController.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScripts\\CharpyTests\\TestSpecimenController.cs",
+              "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\CharpyTests\\TestSpecimenController.cs",
+              "RelativeToolTip": "Assets\\MyScripts\\CharpyTests\\TestSpecimenController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T19:04:12.447Z"
+              "WhenOpened": "2026-07-18T17:29:41.793Z"
             }
           ]
         }

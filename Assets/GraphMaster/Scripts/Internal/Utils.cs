@@ -89,7 +89,8 @@ namespace GraphMaster {
 #if UNITY_3_5 || UNITY_4_0
         return GameObject.FindSceneObjectsOfType(typeof(T)) as T[];
 #else
-      return GameObject.FindObjectsOfType(typeof(T)) as T[];
+            // return GameObject.FindObjectsOfType(typeof(T)) as T[];
+            return GameObject.FindAnyObjectByType(typeof(T)) as T[];
 #endif
     }
 

@@ -12,6 +12,10 @@ public class ImpactTesterController : MonoBehaviour
     private float armLength;
     [SerializeField]
     private GameObject energyGageDial;
+    [SerializeField]
+    AudioSource audioSource;
+    [SerializeField]
+    AudioClip audioClip;
 
     //
     private float postContactArmAngle;
@@ -48,16 +52,18 @@ public class ImpactTesterController : MonoBehaviour
     void Start()
     {
         pivotArmRigidbody = pivotArm.GetComponent<Rigidbody>();
-        armOriginalPosition = pivotArm.transform.eulerAngles;
+        //armOriginalPosition = pivotArm.transform.eulerAngles;
         bottomRotation = Quaternion.Euler(90f, 0f, 0f); ;
 
         hasPassedBottom = false;
         PostContactArmAngle = 0f;
-        massStartingHeight = hammerMass.position.y;
+       // massStartingHeight = hammerMass.position.y;
         originalGageRotation = energyGageDial.transform.localRotation;
-        originalHammerMassLocation = hammerMass.transform.position;
+        //originalHammerMassLocation = hammerMass.transform.position;
+        originalHammerMassLocation = hammerMass.transform.localPosition;
 
-        ResetExperiment();
+        // ResetExperiment();
+        returning = false;
     }
 
     // Update is called once per frame
@@ -79,18 +85,19 @@ public class ImpactTesterController : MonoBehaviour
 
             if (pivotArmRigidbody.angularVelocity.magnitude < .05f && !dialSet)
             {
-                float deltaHeight = massStartingHeight - HammerMassHeight;
-                float energyLoss = -hammerMass.mass * (Physics.gravity.y) * deltaHeight;
+                //float deltaHeight = massStartingHeight - HammerMassHeight;
+                //float energyLoss = -hammerMass.mass * (Physics.gravity.y) * deltaHeight;
 
-                float normalizedEnergy = energyLoss / 10.0f;
-                float rotationOffset = 117.0f * normalizedEnergy; //117 is the angle range of the dial
+                //float normalizedEnergy = energyLoss / 10.0f;
+                float normalizedEnergy = materialSampleEnergyLoss / 10.0f;
+                float rotationOffset = 154.0f * normalizedEnergy; //117 is the angle range of the dial
                 energyGageDial.transform.localRotation = originalGageRotation*Quaternion.Euler(0, 0, rotationOffset);
                 dialSet = true;
 
                 // energyLossMeasure = absorbedEnergyJ * 30.0f;
                 energyLossMeasure = materialSampleEnergyLoss * 30.0f;
 
-                StartCoroutine(ReturnPendulum());
+                StartCoroutine(StopPendulum());
             }
         }
         else
@@ -106,25 +113,12 @@ public class ImpactTesterController : MonoBehaviour
     }
     public void ResetExperiment()
     {
-        //reset pivot arm
-        //older instructions
-        {
-            //pivotArmRigidbody = pivotArm.GetComponent<Rigidbody>();
-            //pivotArmRigidbody.isKinematic = true;
-            //pivotArm.transform.eulerAngles = armOriginalPosition;
-
-
-            //pivotArmRigidbody.isKinematic = false;
-            //hammerMass.isKinematic = true;
-            //hammerMass.transform.position = originalHammerMassLocation;
-            //hammerMass.isKinematic = false;
-        }
+        //reset pivot arm        
         StartCoroutine(ResetPendulum());
         pivotArmRigidbody.constraints = RigidbodyConstraints.FreezeAll;
 
-        //reset experiment measures
+        //reset experiment measures        
         PostContactArmAngle = 0.0f;
-        HammerMassHeight = hammerMass.position.y;
         energyGageDial.transform.localRotation = originalGageRotation;
         energyLossMeasure = 0.0f;
 
@@ -161,8 +155,10 @@ public class ImpactTesterController : MonoBehaviour
        // Debug.Log(impulse);
 
     }
-    IEnumerator ReturnPendulum()
+    IEnumerator StopPendulum()
     {
+        if (returning) yield break;
+
         returning = true;
 
         // Stop the physics
@@ -185,9 +181,12 @@ public class ImpactTesterController : MonoBehaviour
         }
 
         pivotArm.transform.localRotation = endRotation;
+        returning = false;
     }
     IEnumerator ResetPendulum()
     {
+        if (returning) yield break;
+
         returning = true;
 
         // Stop the physics
@@ -210,9 +209,13 @@ public class ImpactTesterController : MonoBehaviour
         }
 
         pivotArm.transform.localRotation = endRotation;
-        hammerMass.transform.position = originalHammerMassLocation;
+        audioSource.PlayOneShot(audioClip);
+
+        //        hammerMass.transform.position = originalHammerMassLocation;
+        hammerMass.transform.localPosition = originalHammerMassLocation;
 
         pivotArmRigidbody.isKinematic = false;
         hammerMass.isKinematic = false;
+        returning = false;
     }
 }

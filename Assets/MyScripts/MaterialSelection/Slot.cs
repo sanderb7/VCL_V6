@@ -13,8 +13,11 @@ public class Slot : MonoBehaviour, IDropHandler
 
     void Start()
     {
-        dataController = FindObjectOfType<DataController>();
-        laminateLayers = FindObjectOfType<GetLayerProperties>();
+        //dataController = FindAnyObjectByType<DataController>();
+        //laminateLayers = FindAnyObjectByType<GetLayerProperties>();
+        dataController = FindAnyObjectByType<DataController>();
+        laminateLayers = FindAnyObjectByType<GetLayerProperties>();
+
     }
 
     public GameObject Item

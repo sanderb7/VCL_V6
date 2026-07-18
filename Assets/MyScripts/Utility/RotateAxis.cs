@@ -10,7 +10,7 @@ public class RotateAxis : MonoBehaviour
 
     private void Start()
     {
-        layerProperties = FindObjectOfType<GetLayerProperties>();
+        layerProperties = FindAnyObjectByType<GetLayerProperties>();
     }
 
     void LateUpdate()

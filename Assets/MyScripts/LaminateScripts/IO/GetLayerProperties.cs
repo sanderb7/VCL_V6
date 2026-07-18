@@ -18,14 +18,14 @@ public class GetLayerProperties : MonoBehaviour
     //Start is called before the first frame update
     void Start()
     {
-        dataController = FindObjectOfType<DataController>();
+        dataController = FindAnyObjectByType<DataController>();
     }
 
     public void GetLayerThickness(string newText)
     {
 
-        float layerThickness = float.Parse(newText);
-
+       // float layerThickness = float.Parse(newText);
+       float.TryParse(newText, out float layerThickness);
         GameObject layerID = this.transform.GetChild(0).gameObject;
         TextMeshProUGUI layerNumber = layerID.GetComponent<TextMeshProUGUI>();
         int i = int.Parse(layerNumber.text);
@@ -67,7 +67,5 @@ public class GetLayerProperties : MonoBehaviour
         dataController.testLaminate.lamina[i - 1].materialProperties.yieldStrain = materialType.yieldStrain;
 
         dataController.testLaminate.lamina[i - 1].materialProperties.displayProperties = materialType.displayMaterial;
-
     }
-
 }

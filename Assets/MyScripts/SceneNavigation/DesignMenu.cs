@@ -16,10 +16,9 @@ public class DesignMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dataController = FindObjectOfType<DataController>();
-        laminateVisuals = FindObjectOfType<LaminateVisuals>();
-
-        compositeProperties = FindObjectOfType<CompositeProperties>();
+        dataController = FindAnyObjectByType<DataController>();
+        laminateVisuals = FindAnyObjectByType<LaminateVisuals>();
+        compositeProperties = FindAnyObjectByType<CompositeProperties>();
     }
 
     //display non principle axis properties for use in the single layer, othotropic scene
@@ -43,7 +42,6 @@ public class DesignMenu : MonoBehaviour
         {
             laminateMechanics.NonPrincipalProperties(i, dataController);
         }
-
         compositeProperties.DisplayStructuralProperties();
     }
 }

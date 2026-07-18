@@ -6,9 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class LaminateVisuals : MonoBehaviour
 {
-    //public GameObject matrixLayerPrefab;
-    //public GameObject fiberPrefab;
-
     public GameObject supportPrefab;
     public GameObject upperGripperConf;
     public GameObject lowerGripperConf;
@@ -19,12 +16,13 @@ public class LaminateVisuals : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       dataController = FindObjectOfType<DataController>();
+      //dataController = FindAnyObjectByType<DataController>();
+      //dataController = FindAnyObjectByType<DataController>();
     }
 
     public void BuildThreePointBendTestLaminate(GameObject laminatePrefab, Transform parent)
     {
-        dataController = FindObjectOfType<DataController>();
+        dataController = FindAnyObjectByType<DataController>();
 
         //build the visual representation
 
@@ -56,7 +54,7 @@ public class LaminateVisuals : MonoBehaviour
 
     public void BuildTensileTestLaminate(GameObject laminatePrefab, Transform parent)
     {
-        dataController = FindObjectOfType<DataController>();
+        dataController = FindAnyObjectByType<DataController>();
 
         //build the visual representation
         //measurements in x, y, z or width, length, thickness

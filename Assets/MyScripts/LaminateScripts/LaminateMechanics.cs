@@ -14,7 +14,8 @@ using UnityEngine;
 [System.Serializable]
 public class LaminateMechanics
 {
-    public float[,] ABDMatrix = new float[6, 6];
+    [System.NonSerialized]
+    public float[,] ABDMatrix = new float[6,6];
 
     private float[,] Q = new float[3, 3];
     private float[,] Qbar = new float[3, 3];

@@ -14,10 +14,14 @@ public class LaminateLayerMaterials : MonoBehaviour
     
     public void BuildMaterialDataBase()
     { 
-        DataController dataController = FindObjectOfType<DataController>();
+        DataController dataController = FindAnyObjectByType<DataController>();
 
         //clear existing material list if it exists
-        if (dataController.testLaminate.lamina.Count > 0) dataController.testLaminate.lamina.Clear();
+        if (dataController.testLaminate.lamina.Count > 0)
+        {
+            dataController.testLaminate.lamina.Clear();
+            //dataController.testLaminate.Reset();
+        }
         foreach  (Transform child in materialLayerParent.transform)
         {
             Destroy(child.gameObject);

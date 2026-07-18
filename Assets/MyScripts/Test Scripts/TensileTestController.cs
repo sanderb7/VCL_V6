@@ -70,8 +70,9 @@ public class TensileTestController : MonoBehaviour
     {
 
         //find the game objects that have the laminate data (DataController) and the visualization method
-        dataController = FindObjectOfType<DataController>();
-        if (dataController.testType == TestType.multilayerMaterialTensileTest || dataController.testType == TestType.charpyTest) return;
+        dataController = FindAnyObjectByType<DataController>();
+        if (dataController.testType == TestType.threePointBendTensileTest || dataController.testType == TestType.charpyTest) return;
+ 
 
         OpenOutputFile(dataController.testType);
         SetModelParameters();  //
@@ -92,11 +93,9 @@ public class TensileTestController : MonoBehaviour
 
             ABDMatrix =  laminate.FindABDMatrix(dataController);
             inverseABDMatrix = matrixOperations.MatrixInverse6x6(ABDMatrix);
-            laminateVisuals = FindObjectOfType<LaminateVisuals>();
+            laminateVisuals = FindAnyObjectByType<LaminateVisuals>();
             laminateVisuals.BuildTensileTestLaminate(laminatePrefab, laminatePositionInLoadCell);
-
-        }
-      
+        }      
     }
 
 
@@ -136,7 +135,7 @@ public class TensileTestController : MonoBehaviour
         //Output results
 
         loadDisplay.text = ((int)mainSlider.value).ToString();
-        displacementDisplay.text = "N/A";
+        displacementDisplay.text = "see file";
 
         RecordData(runningLoadVector[0], strainVector);
         graph.UpdateGraphMultiLayerOrthotropic(runningLoadVector[0], strainVector[0], strainVector[5]);

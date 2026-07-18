@@ -13,7 +13,7 @@ public class SceneNavigationManager : MonoBehaviour
 
     public void Start()
     {
-        dataController = FindObjectOfType<DataController>();
+        dataController = FindAnyObjectByType<DataController>();
     }
 
     public void MainMenu()

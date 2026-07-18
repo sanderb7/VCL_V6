@@ -56,7 +56,8 @@ namespace GraphMaster
                 return;
             }
 
-            dataController = FindObjectOfType<DataController>();
+            //dataController = FindAnyObjectByType<DataController>();
+            dataController = FindAnyObjectByType<DataController>();
 
             //setup the graph based on the test type
             switch ((int)dataController.testType)

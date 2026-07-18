@@ -42,7 +42,7 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 21300000, guid: 68411d99de1a6d147897b4149130b1c2, type: 3}
     duration: 3
-  - logo: {fileID: 21300000, guid: 836ee3df6cf47904b95ef9532c577f9b, type: 3}
+  - logo: {fileID: 21300000, guid: 6a09a00f43254834fa174f4828cd9ac9, type: 3}
     duration: 3
   m_VirtualRealitySplashScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -152,7 +152,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 5.1
+  bundleVersion: 6
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -872,7 +872,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 0
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
   enableDirectStorage: 0
   cloudProjectId: 

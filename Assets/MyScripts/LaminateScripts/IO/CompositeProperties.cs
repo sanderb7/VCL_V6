@@ -20,7 +20,8 @@ public class CompositeProperties : MonoBehaviour
     //Start is called before the first frame update
     void Start()
     {
-        dataController = FindObjectOfType<DataController>();
+       // dataController = FindAnyObjectByType<DataController>();
+       dataController = FindAnyObjectByType<DataController>();
     }
     //private void Update()
     //{

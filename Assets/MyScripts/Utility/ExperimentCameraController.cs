@@ -5,6 +5,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using static UnityEngine.GraphicsBuffer;
 
 public class ExperimentCameraController : MonoBehaviour
 {
@@ -20,15 +22,18 @@ public class ExperimentCameraController : MonoBehaviour
     public Transform charpyTestPosition;
 
     [Header("Camera Controls")]
-    public float lookSpeed = 120f;
-    public float zoomSpeed = 3f;
+    private float lookSpeed;
+    private float zoomSpeed;
+    private float minZoom = 1f;
+    private float maxZoom = 5f;
 
-    public float minPitch = -75f;
-    public float maxPitch = 75f;
-
-    private DataController dataController;
+    private float minPitch;
+    private float maxPitch;
+    private float zoomDistance;
 
     private Transform initialTarget;
+
+    private DataController dataController;
 
     private float yaw;
     private float pitch;
@@ -37,7 +42,12 @@ public class ExperimentCameraController : MonoBehaviour
    
     private void Start()
     {
-        dataController = FindObjectOfType<DataController>();
+        lookSpeed = 30.0f;
+        zoomSpeed = 1f;
+        minPitch = -30f;
+        maxPitch = 30f;
+
+        dataController = FindAnyObjectByType<DataController>();
 
         Transform startPosition = tensileTestPosition;
         initialTarget = tensileTestTarget;
@@ -75,26 +85,30 @@ public class ExperimentCameraController : MonoBehaviour
         //--------------------------------------------------
         // Right mouse drag: look around
         //--------------------------------------------------
-
-        if (Input.GetMouseButton(1))
+        if (Mouse.current != null && Mouse.current.rightButton.isPressed)
         {
-            yaw += Input.GetAxis("Mouse X") * lookSpeed * Time.deltaTime;
-            pitch -= Input.GetAxis("Mouse Y") * lookSpeed * Time.deltaTime;
+            Vector2 mouseDelta = Mouse.current.delta.ReadValue();
+
+            yaw += mouseDelta.x * lookSpeed * Time.deltaTime;
+            pitch -= mouseDelta.y * lookSpeed * Time.deltaTime;
 
             pitch = Mathf.Clamp(pitch, minPitch, maxPitch);
 
             transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
         }
-
+        
         //--------------------------------------------------
         // Scroll wheel: move in current viewing direction
         //--------------------------------------------------
-
-        float scroll = Input.GetAxis("Mouse ScrollWheel");
+       
+        float scroll = Mouse.current.scroll.ReadValue().y;
 
         if (Mathf.Abs(scroll) > 0.001f)
         {
-            transform.position += transform.forward * scroll * zoomSpeed;
+            zoomDistance -= scroll * zoomSpeed;
+            zoomDistance = Mathf.Clamp(zoomDistance, minZoom, maxZoom);
+
+            transform.position = initialTarget.position - transform.forward * zoomDistance;
         }
     }
 }

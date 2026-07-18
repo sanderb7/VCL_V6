@@ -38,8 +38,8 @@ public class ThreePointBendTestController : MonoBehaviour
     {
 
         //find the game objects that have the laminate data (DataController) and the visualization method
-        dataController = FindObjectOfType<DataController>();
-        laminateVisuals = FindObjectOfType<LaminateVisuals>();
+        dataController = FindAnyObjectByType<DataController>();
+        laminateVisuals = FindAnyObjectByType<LaminateVisuals>();
 
         //intiate the listener to check for a load change
         mainSlider.onValueChanged.AddListener(delegate { LoadChangeCheck(); });

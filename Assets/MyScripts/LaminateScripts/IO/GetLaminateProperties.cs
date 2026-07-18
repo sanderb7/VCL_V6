@@ -11,11 +11,11 @@ public class GetLaminateProperties : MonoBehaviour
 
     private void Start()
     {
-        dataController = FindObjectOfType<DataController>();
+        dataController = FindAnyObjectByType<DataController>();
 
-        if (dataController.testLaminate.length != 0.0f)  DisplayProperties();
+        //if (dataController.testLaminate.lamina.Count > 1)  DisplayProperties();
     }
-    
+
     public void DisplayProperties()
     {
         Text[] laminatePropertiesDisplay = this.transform.GetComponentsInChildren<Text>();
@@ -46,7 +46,8 @@ public class GetLaminateProperties : MonoBehaviour
     }
     public void GetLaminateThickness(string newText)
     {
-        float thickness = float.Parse(newText);
+        //float thickness = float.Parse(newText);
+        float.TryParse(newText, out float thickness);
         dataController.testLaminate.thickness = thickness;
         //        Debug.Log("Laminate Thickness =  " + thickness);
     }

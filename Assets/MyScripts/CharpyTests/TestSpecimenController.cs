@@ -5,6 +5,8 @@ public class TestSpecimenController : MonoBehaviour
     public ImpactTesterController impactTesterController;
     public GameObject[] testSpecimen;
     public GameObject dummySpecimen;
+    public AudioSource audioSource;
+    public AudioClip audioClip;
 
     Rigidbody[] rb = new Rigidbody[2];
     MeshRenderer[] testSpecimenRenderer = new MeshRenderer[2];
@@ -32,8 +34,8 @@ public class TestSpecimenController : MonoBehaviour
         ApplyForce();
         impactTesterController.AbsorbImpactEnergy();
         dummySpecimenRenderer.enabled = false;
+        audioSource.PlayOneShot(audioClip);
     }
-   
     private void ApplyForce()
     {
         if (impactTesterController.SpecimenImpacted) return;

@@ -12,8 +12,8 @@ public class SceneController : MonoBehaviour
         // Start is called before the first frame update
     void Start()
     {
-        dataController = FindObjectOfType<DataController>();
-        laminateLayerMaterials = FindObjectOfType<LaminateLayerMaterials>();
+        dataController = FindAnyObjectByType<DataController>();
+        laminateLayerMaterials = FindAnyObjectByType<LaminateLayerMaterials>();
         dataController.testLaminate.numberOfLayers = 1;
         laminateLayerMaterials.BuildMaterialDataBase();    
     }

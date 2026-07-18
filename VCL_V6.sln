@@ -5,11 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEXDrawCore", "TEXDrawCore.csproj", "{68DCF335-26B7-F25B-8743-FE32BAAC575B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEXDrawEditor", "TEXDrawEditor.csproj", "{296AD81A-DD0E-706B-D52A-11CDB7C85C9E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEXDrawRuntime", "TEXDrawRuntime.csproj", "{847F2BE3-A9D0-31C3-4367-6E4BE1D80A93}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{3B33B5D0-CEF1-2F32-3449-679079559DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEXDrawEditor", "TEXDrawEditor.csproj", "{296AD81A-DD0E-706B-D52A-11CDB7C85C9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		{68DCF335-26B7-F25B-8743-FE32BAAC575B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68DCF335-26B7-F25B-8743-FE32BAAC575B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68DCF335-26B7-F25B-8743-FE32BAAC575B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{296AD81A-DD0E-706B-D52A-11CDB7C85C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{296AD81A-DD0E-706B-D52A-11CDB7C85C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{296AD81A-DD0E-706B-D52A-11CDB7C85C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{296AD81A-DD0E-706B-D52A-11CDB7C85C9E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{847F2BE3-A9D0-31C3-4367-6E4BE1D80A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{847F2BE3-A9D0-31C3-4367-6E4BE1D80A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{847F2BE3-A9D0-31C3-4367-6E4BE1D80A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,6 +33,10 @@ Global
 		{3B33B5D0-CEF1-2F32-3449-679079559DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B33B5D0-CEF1-2F32-3449-679079559DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B33B5D0-CEF1-2F32-3449-679079559DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{296AD81A-DD0E-706B-D52A-11CDB7C85C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296AD81A-DD0E-706B-D52A-11CDB7C85C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296AD81A-DD0E-706B-D52A-11CDB7C85C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296AD81A-DD0E-706B-D52A-11CDB7C85C9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

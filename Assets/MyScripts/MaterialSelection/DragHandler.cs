@@ -14,7 +14,8 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     void Start()
     {
-        thisCanvas = FindObjectOfType<Canvas>();
+        //thisCanvas = FindAnyObjectByType<Canvas>();
+        thisCanvas = FindAnyObjectByType<Canvas>();
     }
 
 
@@ -34,24 +35,28 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     #endregion
 
     #region IDragHandler implementation
-
     public void OnDrag(PointerEventData eventData)
     {
-        //this works for Canvas with Overlay selected
-        if(thisCanvas.renderMode == RenderMode.ScreenSpaceOverlay)
-          transform.position = Input.mousePosition;
-
-        //this group works with Canvas with Camera selected and Identified is selected
-        if (thisCanvas.renderMode == RenderMode.ScreenSpaceCamera)
+        if (thisCanvas.renderMode == RenderMode.ScreenSpaceOverlay)
         {
-            transform.position = Input.mousePosition;
-            Vector3 mousePos = Input.mousePosition;
-            mousePos.z = 1.0f;
-            transform.position = Camera.main.ScreenToWorldPoint(mousePos);
+            transform.position = eventData.position;
         }
 
-    }
+        if (thisCanvas.renderMode == RenderMode.ScreenSpaceCamera)
+        {
+            Vector3 pointerPosition = eventData.position;
+            pointerPosition.z = 1.0f;
 
+            Camera eventCamera = eventData.pressEventCamera;
+
+            if (eventCamera != null)
+            {
+                transform.position =
+                    eventCamera.ScreenToWorldPoint(pointerPosition);
+            }
+        }
+    }
+   
     #endregion
 
     #region EndDragHandler implementation
