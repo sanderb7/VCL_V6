@@ -47,6 +47,7 @@ public class ImpactTesterController : MonoBehaviour
     public float EnergyLossMeasure { get => energyLossMeasure; set => energyLossMeasure = value; }
 
     //varible to account for variation on material variation
+    [SerializeField]
     private float materialSampleEnergyLoss;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -108,8 +109,21 @@ public class ImpactTesterController : MonoBehaviour
 
     public void ReleaseHammer()
     {
-        materialSampleEnergyLoss = absorbedEnergyJ * Random.Range(0.9f, 1.1f);
+        // materialSampleEnergyLoss = absorbedEnergyJ * Random.Range(0.9f, 1.1f);
+        materialSampleEnergyLoss = RandomNormal(absorbedEnergyJ, 0.05f * absorbedEnergyJ);
         pivotArmRigidbody.constraints = RigidbodyConstraints.None;
+    }
+    //script assumes material property (energy absorbed) is normally distributed
+    //a Box-Muller technique is implemented to select a variant
+    //standard deviation is selected as a 5% variation on the mean
+    private float RandomNormal(float mean, float standardDeviation)
+    {
+        float u1 = Mathf.Max(Random.value, 0.000001f);
+        float u2 = Random.value;
+
+        float standardNormal = Mathf.Sqrt(-2.0f * Mathf.Log(u1)) * Mathf.Cos(2.0f * Mathf.PI * u2);
+
+        return mean + standardDeviation * standardNormal;
     }
     public void ResetExperiment()
     {

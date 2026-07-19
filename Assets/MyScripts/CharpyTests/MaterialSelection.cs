@@ -1,3 +1,4 @@
+//gets the mean of the material property represented by energy absorbed
 using UnityEngine;
 
 public class MaterialSelection : MonoBehaviour
@@ -15,5 +16,4 @@ public class MaterialSelection : MonoBehaviour
     {
         controller.AbsorbedEnergyJ = material[selection];
     }
-    
 }

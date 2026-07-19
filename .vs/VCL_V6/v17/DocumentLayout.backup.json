@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\GITHUBProjects\\VCL_V6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\utility\\experimentcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\utility\\experimentcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|c:\\githubprojects\\vcl_v6\\assets\\myscripts\\charpytests\\impacttestercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\charpytests\\impacttestercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\laminatescripts\\io\\getlaminateproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\laminatescripts\\io\\getlaminateproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\utility\\experimentcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\utility\\experimentcameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8A29DA4-38FC-2781-F00F-F79502DB2ABE}|Assembly-CSharp.csproj|C:\\GITHUBProjects\\VCL_V6\\assets\\myscripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DragHandler.cs",
               "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\MaterialSelection\\DragHandler.cs",
               "RelativeDocumentMoniker": "Assets\\MyScripts\\MaterialSelection\\DragHandler.cs",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GetLaminateProperties.cs",
               "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\LaminateScripts\\IO\\GetLaminateProperties.cs",
               "RelativeDocumentMoniker": "Assets\\MyScripts\\LaminateScripts\\IO\\GetLaminateProperties.cs",
@@ -78,15 +78,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ExperimentCameraController.cs",
               "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\Utility\\ExperimentCameraController.cs",
               "RelativeDocumentMoniker": "Assets\\MyScripts\\Utility\\ExperimentCameraController.cs",
               "ToolTip": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\Utility\\ExperimentCameraController.cs",
               "RelativeToolTip": "Assets\\MyScripts\\Utility\\ExperimentCameraController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T20:50:22.875Z"
+              "WhenOpened": "2026-07-18T20:50:22.875Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -126,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ImpactTesterController.cs",
               "DocumentMoniker": "C:\\GITHUBProjects\\VCL_V6\\Assets\\MyScripts\\CharpyTests\\ImpactTesterController.cs",
               "RelativeDocumentMoniker": "Assets\\MyScripts\\CharpyTests\\ImpactTesterController.cs",
